@@ -1,8 +1,8 @@
-# LGS Türkçe Soru Üretici - PowerShell Başlatma Scripti
+# LGS Türkçe Soru Tahminleme Modeli - PowerShell Başlatma Scripti
 
 Write-Host "========================================" -ForegroundColor Cyan
-Write-Host "  LGS Türkçe Soru Üretici" -ForegroundColor Yellow
-Write-Host "  Yapay Zeka Destekli Soru Sistemi" -ForegroundColor Yellow
+Write-Host "  LGS Türkçe Soru Tahminleme Modeli" -ForegroundColor Yellow
+Write-Host "  LLM Tabanlı Yapay Zeka Sistemi" -ForegroundColor Yellow
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
 
@@ -17,19 +17,14 @@ try {
 
 # Kütüphaneleri yükle
 Write-Host ""
-Write-Host "[1/3] Gerekli kütüphaneler yükleniyor..." -ForegroundColor Cyan
+Write-Host "[1/2] Gerekli kütüphaneler yükleniyor..." -ForegroundColor Cyan
 pip install -r requirements.txt -q
 
-# Veritabanını başlat
-Write-Host "[2/3] Veritabanı başlatılıyor..." -ForegroundColor Cyan
-python turkce_chroma_setup.py
-
 # Uygulamayı başlat
-Write-Host "[3/3] Uygulama başlatılıyor..." -ForegroundColor Cyan
+Write-Host "[2/2] Uygulama başlatılıyor..." -ForegroundColor Cyan
 Write-Host ""
 Write-Host "Tarayıcınızda http://localhost:8501 adresine gidin" -ForegroundColor Green
 Write-Host "Kapatmak için Ctrl+C tuşlarına basın" -ForegroundColor Yellow
 Write-Host ""
 
 streamlit run app.py
-

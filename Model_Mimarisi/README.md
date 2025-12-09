@@ -1,19 +1,45 @@
-# 📚 LGS Türkçe Soru Üretici
+# 📚 LGS Türkçe Soru Tahminleme Modeli
 
-**RAG (Retrieval-Augmented Generation) Mimarisi ile Yapay Zeka Destekli Soru Üretim Sistemi**
+**LLM (Large Language Model) Tabanlı Yapay Zeka Soru Üretim ve Tahminleme Sistemi**
 
 ## 🎯 Proje Hakkında
 
-Bu proje, LGS (Liselere Geçiş Sınavı) Türkçe dersi için yapay zeka destekli soru üretim sistemidir. Google Gemini API kullanarak geçmiş yılların sorularını analiz eder ve yeni, özgün sorular üretir.
+Bu proje, LGS (Liselere Geçiş Sınavı) Türkçe dersi için LLM tabanlı soru tahminleme ve üretim sistemidir. Google Gemini API kullanarak geçmiş yılların sorularından öğrenir ve yeni, özgün sorular üretir.
+
+### 🏗️ Mimari
+
+```
+┌─────────────────────────────────────────────────────┐
+│                    Kullanıcı Arayüzü                │
+│                  (Streamlit Web App)                 │
+└─────────────────────┬───────────────────────────────┘
+                      │
+┌─────────────────────▼───────────────────────────────┐
+│                   LLM Model                         │
+│              (Google Gemini API)                    │
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐ │
+│  │Soru Üretimi │  │Konu Tahmini │  │   Analiz    │ │
+│  └─────────────┘  └─────────────┘  └─────────────┘ │
+└─────────────────────┬───────────────────────────────┘
+                      │
+┌─────────────────────▼───────────────────────────────┐
+│                  Veri İşleme                        │
+│              (Data Processor)                       │
+│  ┌─────────────────────────────────────────────┐   │
+│  │         LGS Türkçe Soru Veritabanı          │   │
+│  │           (JSON - Eğitim Verisi)            │   │
+│  └─────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────┘
+```
 
 ### Özellikler
 
-- 🤖 **AI Tabanlı Soru Üretimi**: Gemini API ile akıllı soru üretimi
-- 📊 **Vektör Veritabanı**: ChromaDB ile semantik soru araması
-- 🎓 **Konu Odaklı**: Sadece Türkçe dersine özel, diğer derslere cevap vermez
-- 📝 **Quiz Modu**: İnteraktif sınav simülasyonu
+- 🤖 **LLM Tabanlı Soru Üretimi**: Gemini API ile akıllı soru üretimi
+- 🎯 **Konu Tahmini**: Soruların hangi konuya ait olduğunu tahmin eder
+- 📊 **Soru Analizi**: Detaylı soru analizi ve çözüm stratejileri
 - 💬 **Sohbet Botu**: Türkçe konularında yardımcı asistan
 - 📖 **Konu Anlatımı**: Detaylı konu açıklamaları
+- 🎓 **Sadece Türkçe**: Diğer derslere cevap vermez
 
 ## 🛠️ Kurulum
 
@@ -40,13 +66,7 @@ GEMINI_API_KEY = "sizin_api_anahtariniz"
 
 API anahtarı almak için: https://makersuite.google.com/app/apikey
 
-3. **Veritabanını Başlatın:**
-
-```bash
-python turkce_chroma_setup.py
-```
-
-4. **Uygulamayı Çalıştırın:**
+3. **Uygulamayı Çalıştırın:**
 
 ```bash
 streamlit run app.py
@@ -55,16 +75,17 @@ streamlit run app.py
 ## 📁 Dosya Yapısı
 
 ```
-Hafta-1/
+Model_Mimarisi/
 ├── app.py                    # Streamlit web arayüzü
-├── config.py                 # Yapılandırma ayarları
-├── gemini_rag.py            # RAG sistemi ve Gemini entegrasyonu
-├── turkce_chroma_setup.py   # ChromaDB veritabanı kurulumu
-├── soru_uretici.py          # Soru yönetim modülü
-├── lgs_turkce_sorulari.json # Örnek soru veritabanı
+├── config.py                 # Yapılandırma ve prompt şablonları
+├── llm_model.py             # LLM model sınıfı (Gemini API)
+├── data_processor.py        # Veri işleme modülü
+├── lgs_turkce_sorulari.json # Eğitim verisi (örnek sorular)
 ├── requirements.txt         # Python bağımlılıkları
 ├── Dockerfile               # Docker yapılandırması
 ├── docker-compose.yml       # Docker Compose
+├── run.bat                  # Windows başlatma scripti
+├── run.ps1                  # PowerShell başlatma scripti
 └── README.md                # Bu dosya
 ```
 
@@ -78,33 +99,36 @@ streamlit run app.py
 
 Tarayıcınızda `http://localhost:8501` adresine gidin.
 
-### Komut Satırı
+### Python API
 
 ```python
-from gemini_rag import TurkceRAG
-from turkce_chroma_setup import initialize_database
+from llm_model import LGSTurkceModel
 
-# Veritabanını başlat
-client, collection = initialize_database()
-
-# RAG sistemini oluştur
-rag = TurkceRAG(collection=collection)
+# Modeli başlat
+model = LGSTurkceModel()
 
 # Soru üret
-sorular = rag.generate_questions(
+sorular = model.generate_questions(
     konu="Sözcükte Anlam",
-    alt_konu="Eş Anlamlı Sözcükler",
     zorluk="Orta",
     adet=3
 )
 print(sorular)
+
+# Konu tahmini yap
+konu = model.predict_topic("Aşağıdaki cümlelerin hangisinde zıt anlamlı sözcükler kullanılmıştır?")
+print(f"Tahmin: {konu}")
+
+# Soru analizi
+analiz = model.analyze_question("...")
+print(analiz)
 ```
 
 ## 📚 Desteklenen Konular
 
 | Ana Konu | Alt Konular |
 |----------|-------------|
-| Sözcükte Anlam | Eş Anlam, Zıt Anlam, Mecaz Anlam, Sesteş Sözcükler |
+| Sözcükte Anlam | Eş Anlam, Zıt Anlam, Mecaz Anlam, Sesteş, Deyimler |
 | Cümlede Anlam | Öznel/Nesnel Yargı, Neden-Sonuç, Koşul-Sonuç |
 | Paragrafta Anlam | Ana Düşünce, Yardımcı Düşünce, Başlık |
 | Dil Bilgisi | Fiil Kipleri, İsim Tamlaması, Sıfatlar, Zarflar |
@@ -124,12 +148,13 @@ print(sorular)
 GEMINI_API_KEY = "your-api-key"
 GEMINI_MODEL = "gemini-1.5-flash"  # veya "gemini-1.5-pro"
 
-# Veritabanı Ayarları
-CHROMA_PERSIST_DIR = "./chroma_db"
-COLLECTION_NAME = "lgs_turkce_sorulari"
-
-# Embedding Model
-EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+# Eğitim Ayarları
+TRAINING_CONFIG = {
+    "epochs": 3,
+    "batch_size": 8,
+    "learning_rate": 2e-5,
+    "max_length": 512
+}
 ```
 
 ## 🐳 Docker ile Çalıştırma
@@ -138,7 +163,7 @@ EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 docker-compose up --build
 ```
 
-## 🔒 Güvenlik Notu
+## 🔒 Güvenlik
 
 - API anahtarınızı asla paylaşmayın
 - Üretim ortamında çevre değişkenleri kullanın:
@@ -147,26 +172,11 @@ docker-compose up --build
 export GEMINI_API_KEY="your-api-key"
 ```
 
-## 🐛 Sorun Giderme
-
-### "API anahtarı geçersiz" hatası
-- API anahtarınızın doğru olduğundan emin olun
-- https://makersuite.google.com/app/apikey adresinden yeni anahtar alın
-
-### "ChromaDB bağlantı hatası"
-- `chroma_db` klasörünü silip tekrar başlatın
-- Python sürümünüzün 3.9+ olduğundan emin olun
-
-### "Module not found" hatası
-```bash
-pip install -r requirements.txt --upgrade
-```
-
 ## 📄 Lisans
 
-Bu proje eğitim amaçlı geliştirilmiştir.
+MIT License
 
 ---
 
-**Not:** Bu sistem sadece LGS Türkçe dersi için tasarlanmıştır. Matematik, Fen Bilimleri, Sosyal Bilgiler gibi diğer dersler için soru üretmez.
-
+**⚠️ Not:** Bu sistem sadece LGS Türkçe dersi için tasarlanmıştır. 
+Matematik, Fen Bilimleri, Sosyal Bilgiler gibi diğer dersler için soru üretmez.

@@ -1,7 +1,7 @@
 @echo off
 echo ========================================
-echo   LGS Turkce Soru Uretici
-echo   Yapay Zeka Destekli Soru Sistemi
+echo   LGS Turkce Soru Tahminleme Modeli
+echo   LLM Tabanli Yapay Zeka Sistemi
 echo ========================================
 echo.
 
@@ -13,13 +13,10 @@ if errorlevel 1 (
     exit /b 1
 )
 
-echo [1/3] Gerekli kutuphaneler kontrol ediliyor...
+echo [1/2] Gerekli kutuphaneler yukleniyor...
 pip install -r requirements.txt -q
 
-echo [2/3] Veritabani baslatilidyor...
-python turkce_chroma_setup.py
-
-echo [3/3] Uygulama baslatiliyor...
+echo [2/2] Uygulama baslatiliyor...
 echo.
 echo Tarayicinizda http://localhost:8501 adresine gidin
 echo Kapatmak icin Ctrl+C tuslarina basin
@@ -27,4 +24,3 @@ echo.
 streamlit run app.py
 
 pause
-
