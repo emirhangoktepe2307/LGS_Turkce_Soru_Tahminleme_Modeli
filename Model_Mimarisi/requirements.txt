@@ -1,0 +1,49 @@
+# LGS Türkçe Soru Üretici - Gerekli Kütüphaneler
+# Python 3.9+ gerektirir
+
+# ==================== TEMEL KÜTÜPHANELER ====================
+numpy>=1.24.0
+pandas>=2.0.0
+
+# ==================== YAPAY ZEKA & ML ====================
+# Google Gemini API
+google-generativeai>=0.3.0
+
+# Embedding ve NLP
+sentence-transformers>=2.5.0
+transformers>=4.35.0
+torch>=2.0.0
+
+# ==================== VEKTöR VERİTABANI ====================
+chromadb>=0.4.0
+
+# ==================== WEB ARAYÜZÜ ====================
+streamlit>=1.28.0
+streamlit-option-menu>=0.3.6
+
+# ==================== YARDIMCI KÜTÜPHANELER ====================
+# JSON ve dosya işlemleri
+python-dotenv>=1.0.0
+
+# HTTP istekleri
+requests>=2.31.0
+
+# Güvenlik ve şifreleme
+cryptography>=41.0.0
+
+# Tarih ve saat
+python-dateutil>=2.8.0
+
+# ==================== GELİŞTİRME ARAÇLARI ====================
+# Test
+pytest>=7.4.0
+
+# Linting
+flake8>=6.1.0
+black>=23.0.0
+
+# ==================== DOCKER İÇİN EK BAĞIMLILIKLAR ====================
+# DuckDB (ChromaDB için)
+duckdb>=0.9.0
+pyarrow>=14.0.0
+
