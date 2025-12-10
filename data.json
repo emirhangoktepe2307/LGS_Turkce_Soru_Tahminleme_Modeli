@@ -1,0 +1,186 @@
+
+{
+    "Ticket_ID": [
+        "LGS-2018-C-001", "LGS-2018-C-003", "LGS-2018-C-004", "LGS-2018-C-007", "LGS-2018-C-010", 
+        "LGS-2018-C-011", "LGS-2018-P-005", "LGS-2018-P-006", "LGS-2018-P-009", "LGS-2018-P-013", 
+        "LGS-2018-P-014", "LGS-2018-P-018", "LGS-2018-P-020", "LGS-2019-C-001", "LGS-2019-C-002",
+        "LGS-2019-P-006", "LGS-2019-P-007", "LGS-2019-C-008", "LGS-2019-C-009", "LGS-2019-P-014",
+        "LGS-2019-P-015", "LGS-2019-P-016"
+    ],
+
+    "Kategori": [
+        "Söz Öbeğinde Anlam",
+        "Söz Öbeğinde Anlam",
+        "Cümlede Anlam",
+        "Cümlede Anlam",
+        "Cümlede Anlam",
+        "Cümlede Anlam",
+        "Paragrafta Anlam",
+        "Paragrafta Anlam",
+        "Paragrafta Yapı",
+        "Paragrafta Anlam",
+        "Paragrafta Anlam",
+        "Şiirde Anlam",
+        "Paragrafta Anlam",
+	"Sözcükte Anlam",
+        "Söz Öbeğinde Anlam",
+        "Paragrafta Anlam",
+        "Paragrafta Anlam",
+        "Cümlede Anlam",
+        "Cümlede Anlam",
+        "Paragrafta Yapı",
+        "Paragrafta Anlam",
+        "Paragrafta Anlam"
+    ],
+
+    "Alt Başlık": [
+        "Sözcük Grubu Yorumlama",
+        "Mecaz Anlam Yorumlama",
+        "Koşul - Sonuç İlişkisi",
+        "Öneri Cümlesi",
+        "Kesin Yargı Çıkarımı",
+        "Yakın Anlamlı Cümleler",
+        "Dil ve Anlatım Özellikleri",
+        "Ana Düşünce (Vurgulanan Fikir)",
+        "Düşünce Akışını Bozan Cümle",
+        "Yardımcı Düşünce (Çıkarılamaz)",
+        "Yazarın Amacı",
+        "Duygu Analizi",
+        "Çoklu Metin Sentezi (Ortak Sonuç)",
+	"Çok Anlamlılık",
+        "Deyimler ve Söz Öbekleri",
+        "Metin Türleri",
+        "Kavramı Yorumlama ve Uygulama",
+        "Kavram (Ön Yargı)",
+        "Kesin Yargı Çıkarımı",
+        "Düşüncenin Akışı ( Boşluk Doldurma )",
+        "Yazarın Amacı ( Sorunun Cevabı )",
+        "Yardımcı Düşünce ( Çıkarım ) "
+    ],
+
+    "Metinler": [
+        "Okuru olmayan bir ülkede dergi çıkartmak, suya yazı yazmak gibidir. Tutku olmasa ne kadar da imkânsız bir iş. Bu, kitap eleştirisi üzerine çıkan bir dergiyse hele... Malum, özellikle genç okurların yönelimi daha çok edebiyat ve şiir dergilerine olurken eleştiri dergileri maalesef rafların arkasında kalıyor ",
+        "Son yıllarda toplumumuzun görsel sanatlar sevgisinde bir kımıldanma görülüyor. Her sanat dalı yaşama açılan pencerelerden biridir. Pencereleri hepten kapanmış binada ömür geçirmeye tahammül edenler, ruh çölünde yaşıyor demektir. Çölden dışarı adım atanlar, yaşadıkları yerlerin duvarlarına resim asmaya, heykelle ilgilenmeye, fotoğraf çekmeye başladılar. Bu, övgüye değer! ",
+        "(I) Japonya, uzay çöplerini temizlemek için ürettiği metalik örgü ağını Uluslararası Uzay İstasyonu'na ulaştırdı. (II) 700 metrelik bu devasa ağ, bir Japon balık ağı üreticisi tarafından tasarlandı. (III) Tıpkı bir balık ağı gibi uzaya salınıp gezegenimizin çevresini büyük uzay çöplerinden temizleyecek. (IV) Metal ağ ile yapılacak denemelerin başarılı olması durumunda aynı prensiple çalışan küçük robot araçlar üretilecek. ",
+        "Eğer siz de teknolojiyi haddinden fazla kullanıyorsanız teknoloji diyeti yaparak sevdiklerinize vakit ayırıp neler kaçırdığınızı fark edebilirsiniz ",
+        "'Küçük Prens'in Güzel Hikâyesi' adlı bu nefis kitap, Antonie de Saint Exupery'nin yazdığı Küçük Prens öyküsünün tam metninin yanı sıra yayımlanmayan bir bölümünü, Küçük Prens karakterinin orijinal çizimlerini ve Küçük Prens üzerine yazılmış makaleleri içeriyor. ",
+        "I. Mutluluğu engelleyen şeylerden biri, çok fazla mutluluk beklemektir. II. Mutluluk öyle bir servettir ki bölüşüldükçe çoğalır. III. Bilge ve iyi olmadıkça kimse mutlu olamaz. IV. İnsan en azla yetindiği zaman mutludur. ",
+        "Teknolojik cihazları hayatımızın her sahasında görmek mümkün. Ancak teknolojiyi bilinçsiz kullanmaktan en fazla zararı yeni nesil görüyor. Çünkü doğdukları andan itibaren akıllı cihazlar onların ellerine 'elektronik emzik' niyetiyle veriliyor. Bu susturucu emzikle başlayan tanışma ileride teknoloji bağımlılığına dönüşüyor. (...) Bütün bunlara çözüm olarak da haftada bir gün 'teknoloji diyeti' tavsiye ediliyor ",
+        "Teknolojik cihazları hayatımızın her sahasında görmek mümkün. Ancak teknolojiyi bilinçsiz kullanmaktan en fazla zararı yeni nesil görüyor. Çünkü doğdukları andan itibaren akıllı cihazlar onların ellerine 'elektronik emzik' niyetiyle veriliyor. Bu susturucu emzikle başlayan tanışma ileride teknoloji bağımlılığına dönüşüyor. (...) Bütün bunlara çözüm olarak da haftada bir gün 'teknoloji diyeti' tavsiye ediliyor ",
+        "(I) İstanbul'un üstünde ne tür tarihî yapıların olduğu az çok bilinir ama altında ne var pek bilinmez. (II) Yerin altındaki yapılardan biri olan sarnıçlar yüzyıllarca kentin su ihtiyacının önemli bir kısmını karşılamış. (III) Yağmurlardan süzülen veya kentin kilometrelerce ötesinden su kanallarıyla getirilen sular buralarda depolanırmış. (IV) Sarayın, büyük kiliselerin, askerî kışlaların, soylulara ait konakların su ihtiyaçları buralardan karşılanırmış ",
+        "Yaşadığımız dünyaya karşı taşıdığımız sorumlulukları fark etmemiz için en ideal zamanlar ilk çocukluk yıllarımız. Yere çöp atmama, ağaçların dallarını kırmama, çiçekleri koparmama gibi birçok şey bu dönemde edindirilir. Bunda en büyük pay kitaplara ait. Eğitim Uzmanı Bilge Buhan Musa, geri dönüşüm üzerine çıkardığı dört yeni hikâye kitabıyla çocuklara çevre bilinci kazandırmayı hedefliyor. (...) Eğitimci yazarın yayımlanan hikâye serisi, çocukların kitaptaki kahramanlarla empati kurmalarını sağlıyor ve gezegenimize karşı sorumluluklarını yerine getirmelerine aracı oluyor. (...) ",
+        "Yaşadığımız dünyaya karşı taşıdığımız sorumlulukları fark etmemiz için en ideal zamanlar ilk çocukluk yıllarımız. Yere çöp atmama, ağaçların dallarını kırmama, çiçekleri koparmama gibi birçok şey bu dönemde edindirilir. Bunda en büyük pay kitaplara ait. Eğitim Uzmanı Bilge Buhan Musa, geri dönüşüm üzerine çıkardığı dört yeni hikâye kitabıyla çocuklara çevre bilinci kazandırmayı hedefliyor. (...) Eğitimci yazarın yayımlanan hikâye serisi, çocukların kitaptaki kahramanlarla empati kurmalarını sağlıyor ve gezegenimize karşı sorumluluklarını yerine getirmelerine aracı oluyor. (...) ",
+        "Ben Ömer Halisdemir, Gözlerimde göremezsiniz korkuyu. Arkamdan söylesinler şu türküyü: Gencecik yaşında düşmüştü şehit, Cihan görmedi böyle bir yiğit. Ben Ömer Halisdemir, Bin canım daha olsa Veririm yine vatan uğruna ",
+        "I. Başınız ağrıyorsa 'Kendinizi hangi konuda yargılıyorsunuz, uğraşıp baş edemediğiniz düşünceleriniz nelerdir?' sorularının cevabını bulmalısınız. Baş ağrılarının çoğu kendini acımasızca eleştirme, öz güven kayıpları ve kişinin, yaptığı her şeyi değersiz görmesiyle ilgilidir. II. Migren türü baş ağrısı kendine ve her şeye kızan, oldukça mükemmeliyetçi olan, kendilerine acımasızca baskı yapan kişiler tarafından yaratılır. Migrende, yoğun olarak bastırılmış kızgınlık vardır. III. Boyun fıtığı ve ağrıları; düşüncelerimizde esnek olmamak, yaşadığımız sorunların öteki yüzünü görememek, başka bir kişinin bakış açısını anlayamamaktan kaynaklanır.",
+	"I. Tedirgin etmek, sataşmak II. İnsanın içine işlemek, duygulandırmak, etkilemek III. İlişkin olmak, ilgili olmak, değinmek ",
+        "I. Tedirgin etmek, sataşmak II. İnsanın içine işlemek, duygulandırmak, etkilemek III. İlişkin olmak, ilgili olmak, değinmek",
+        "Deneme, bir konu üzerinde yazarın kesin yargılara varmadan, kanıtlama amacı gütmeden kişisel görüşlerini ifade ettiği yazı türüdür. ",
+        "Miyop, gözün uzaktaki cisimleri net olarak göremediği bir göz hastalığıdır. Uzağı yani geleceği göremeyen şirketler de 'pazarlama miyobu' olarak adlandırılmıştır. Pazarlama miyopluğunun nedeni şirketlerin pazara ve müşterilere eski usul yaklaşmaya devam etmeleridir. Bunun en açık belirtisi de reklamlarında, ürünün müşterilere fayda sağlayacak özelliklerini ön plana çıkarmamalarıdır. ",
+        "Ön yargı, kişinin bir kimse veya bir şeyle ilgili peşinen varsaydığı olumlu veya olumsuz tutumların tümüdür. ",
+        "Anadolu'yu köy köy dolaşmış bir gezgin olarak Maçka'yı her zaman özlerim. ",
+        "Koca bir ömür yaşamış tecrübeli insanlar, gençlerin umursamaz hareketlerini gördükçe onlara '----.' diye nasihat etmekten geri durmazlar. Ama kaç genç bu sözün önemini kavrayabilir? Halbuki hayat ilerledikten sonra insanların duydukları birçok pişmanlık, gençlikte bile bile kaybettikleri imkânlar yüzündendir. 'O zamanlar niçin daha çok okumadım? Niçin daha çok çalışmadım?' diye dizlerini döven insanlara hayatta çok rastlanıyor. Bu insanların neden bu kadar üzüldüklerini gençler anlamasa bile feleğin çemberinden geçmiş yaşlılar çok iyi anlıyor. ",
+        "Doğup büyüdüğüm mahallede herkes birbirini tanırdı. Kimse aç uyumaz; kimsenin düğünü, cenazesi unutulmazdı. Pek az küslük olur, kalpler kolay kolay kırılmazdı. Bugüne kıyasla masal gibi bir yerdi mahallemiz. Şüphesiz, burası eserlerimdeki konuya ve karakterlere yön verdi. ",
+        "Sosyal medya devi bazı şirketler, kendi üyelerinin verilerini işleyip kullanabilmek için bazı özel programlar geliştiriyor. Kişilerle ilgili elde ettikleri verilerden yola çıkarak da onları etkilemeye çalışıyor. 2013'te açıklanan bir araştırmaya göre bu tür programlar, kullanıcılarının karakterini beğendiği içeriklerden yola çıkarak doğru tahmin edebiliyor. Şirketler bu tip programlar sayesinde sizi... tanıyabiliyor. Beğendiğiniz içeriklere dayanarak yaşınızı, cinsiyetinizi, kültür seviyenizi, siyasi görüşlerinizi hatta o anki ruh hâlinizi sadece bir tıkla tespit edebiliyor. "
+    ],
+
+    "Soru Kökleri": [
+        "Metinde geçen 'suya yazı yazmak' ve 'rafların arkasında kalmak' sözleriyle anlatılmak istenen nedir? ",
+        "Metinde geçen 'Pencereleri hepten kapanmış binada ömür geçirmek' sözüyle anlatılmak istenen aşağıdakilerden hangisidir? ",
+        "Japonya'nın uzay çöpleri için geliştirdiği ağ ile ilgili metinde numaralanmış cümlelerin hangisinde koşul anlamı vardır? ",
+        "Teknoloji kullanımıyla ilgili metnin son cümlesi ('Eğer siz de teknolojiyi haddinden fazla kullanıyorsanız teknoloji diyeti yaparak...') ne ifade etmektedir? ",
+        "Küçük Prens'in Güzel Hikâyesi adlı kitapla ilgili verilen cümleden kesin olarak çıkarılabilecek yargı hangisidir? ",
+        "Mutluluk ile ilgili verilen dört cümleden hangileri anlamca birbirine en yakındır? (I. Çok bekleme, II. Bölüşüldükçe çoğalma, III. Bilgelik, IV. Azla yetinme) ",
+        "Teknoloji bağımlılığı ve 'teknoloji diyeti' konulu metnin dil ve anlatımıyla ilgili hangisi yanlıştır? ",
+        "Teknoloji bağımlılığı ve 'teknoloji diyeti' konulu metinde asıl anlatılmak istenen nedir? ",
+        "Yerebatan Sarnıcı ile ilgili cümlenin metindeki düşünce akışını bozmaması için hangi cümleden sonra getirilmesi gerekir? ",
+        "Geri dönüşüm ve çocuk kitapları hakkındaki metinden hangi yargı çıkarılamaz? ",
+        "Yazar Bilge Buhan Musa'nın geri dönüşüm kitaplarını yazma amacı nedir? ",
+        "Ömer Halisdemir için yazılan dizelerde hangi duyguya yer verilmemiştir? ",
+        "Baş ağrısı, migren ve boyun fıtığı ile ilgili verilen üç metinden çıkarılabilecek ortak sonuç nedir?",
+	"'Dokunmak' sözcüğü aşağıdaki cümlelerin hangisinde numaralanmış anlamlarından herhangi biriyle kullanılmamıştır? [cite: 40-41]",
+        "Aşağıdaki cümlelerin hangisinde 'tecrübe'yi anlatan bir söz kullanılmamıştır? [cite: 55]",
+        "Aşağıdakilerden hangisi bu açıklamayı örneklendiren bir metindir? [cite: 102-103]",
+        "Bu metne göre, aşağıdaki reklam afişlerinden hangisi 'pazarlama miyopluğu' yaşayan bir firmaya ait olabilir? [cite: 127]",
+        "Buna göre aşağıdakilerin hangisinde ön yargılı bir tutumdan söz edilemez? [cite: 144-145]",
+        "Bu cümleyi dile getiren kişi için aşağıdakilerden hangisi kesin olarak söylenir? [cite: 164]",
+        "Bu metinde boş bırakılan yere düşüncenin akışına göre aşağıdakilerden hangisi getirilmelidir? [cite: 199]",
+        "Bu metin aşağıdaki sorulardan hangisine cevap vermek amacıyla yazılmıştır? [cite: 221]",
+        "Bu parçaya göre sosyal medya kullanımı; [cite_start]I, II, III, IV durumlarından hangilerini ortaya çıkarabilir? [cite: 233-237]"
+    ],
+
+    "Cevaplar": [
+        "Doğru cevap C şıkkıdır. 'Suya yazı yazmak' deyimi kalıcı olmayan, boşuna uğraşılan işler için kullanılır. 'Rafların arkasında kalmak' ise görünür olmamak yani yeterince tercih edilmemek anlamındadır. ",
+        "Doğru cevap B şıkkıdır. Metinde sanat 'yaşama açılan pencere' olarak tanımlanmıştır. Pencerenin kapanması, dış dünyayla bağın kopması ve sanattan yoksun, ruhsuz bir hayat sürdürmek anlamına gelir. ",
+        "Doğru cevap D şıkkıdır (IV. Cümle). 'Metal ağ ile yapılacak denemelerin başarılı olması durumunda...' ifadesi, robot araçların üretilmesini bir şarta (başarıya) bağlamıştır. Bu tipik bir koşul-sonuç ilişkisidir. ",
+        "Doğru cevap B şıkkıdır. Cümledeki '...fark edebilirsiniz' ifadesi ve teknolojiyi azaltma tavsiyesi bir 'öneri' niteliği taşır. ",
+        "Doğru cevap C şıkkıdır. Metinde kitabın 'Küçük Prens üzerine yazılmış makaleleri içeriyor' ifadesi, eserle ilgili farklı çalışmalara yer verildiğini kesin olarak kanıtlar. ",
+        "Doğru cevap B şıkkıdır (I ve IV). I. cümle 'çok fazla mutluluk beklemeyin' derken, IV. cümle 'en azla yetinmek'ten bahseder. Her ikisi de beklentiyi düşük tutmanın mutluluk getireceğini vurgular. ",
+        "Doğru cevap A şıkkıdır. Metinde sorular sorulmuştur ancak yazar düşüncesini sorular yoluyla anlatma tekniğini (soru-cevap tekniği ile öğreticilik) değil, tespit ve öneri yöntemini kullanmıştır. ",
+        "Doğru cevap D şıkkıdır. Metin teknolojinin tamamen kötü olduğunu değil, 'elektronik emzik' gibi yanlış kullanımların zararını ve 'diyet' (azaltma) yapılması gerektiğini vurgular. Bu da 'ölçülü kullanım' demektir. ",
+        "Doğru cevap D şıkkıdır. Paragraf genel sarnıçlardan bahsederken özzele (Yerebatan Sarnıcı) geçiş yapmalıdır. IV. cümlede genel kullanım anlatıldıktan sonra en meşhur örneğin verilmesi akışı bozmaz, tamamlar. ",
+        "Doğru cevap D şıkkıdır. Metinde 'empati kurma'dan bahsedilmiştir ancak sağlıklı iletişimin tek veya ana yolunun bu olduğu yargısına varılamaz. ",
+        "Doğru cevap A şıkkıdır. Metinde yazarın 'çocuklara çevre bilinci kazandırmayı hedeflediği' açıkça belirtilmiştir. ",
+        "Doğru cevap B şıkkıdır. Şiirde kahramanlık, cesaret ve vatan sevgisi (feda etme) vurgulanmış; ancak acıma veya affetme anlamına gelen 'merhamet' duygusu işlenmemiştir. ",
+        "Doğru cevap C şıkkıdır. Üç metinde de fiziksel ağrıların (baş, migren, boyun) aslında ruhsal durumlar (kendini yargılama, kızgınlık, esnek olmama) ile bağlantılı olduğu anlatılmıştır. ",
+	"Doğru cevap A şıkkıdır. 'Masamın üzerindeki evraklara kimse dokunmasın' cümlesindeki 'dokunmak'; el sürmek veya karıştırmak anlamındadır. Bu anlam öncüllerde verilmemiştir. ",
+        "Doğru cevap D şıkkıdır. 'İnce eleyip sık dokumak' deyimi titiz davranmak, detaylara önem vermek anlamındadır; tecrübeyi doğrudan ifade etmez. Diğer şıklardaki 'eski kurt', 'sütten ağzı yanmak' ve 'insan sarrafı olmak' tecrübe kazanmayı ifade eder. ",
+        "Doğru cevap B şıkkıdır. B seçeneğindeki metin, yazarın 'ayrılık ve kavuşma' üzerine kişisel görüşlerini, samimi bir dille ve kanıtlama amacı gütmeden anlattığı için deneme türüne örnektir. ",
+        "Doğru cevap A şıkkıdır. Metne göre pazarlama miyopluğu, müşteriye fayda yerine ürünün özelliklerine odaklanmaktır. A şıkkındaki 'Keskin çizgiler, Göz alıcı renkler' ifadesi sadece fiziksel özelliğe odaklanır. Diğer şıklarda müşteri faydaları vurgulanmıştır. ",
+        "Doğru cevap A şıkkıdır. 'Emanete hıyanet olmaz' sözü genel geçer bir ahlak kuralı ve ilkedir, bir kişi veya duruma yönelik peşin hüküm (ön yargı) içermez. Diğer şıklar genelleme yaparak peşin hüküm bildirir. ",
+        "Doğru cevap D şıkkıdır. Bir yeri 'özlemek', o yeri tekrar görme isteğini veya oraya duyulan hasreti içerir. Bu nedenle 'Maçka'yı tekrar görmek istemektedir' yargısı kesindir. ",
+        "Doğru cevap B şıkkıdır. Metnin devamında insanların gençlikte kaybettikleri 'imkânlar' yüzünden pişmanlık duydukları belirtilmiştir. Bu bağlamda yaşlıların verdiği nasihat 'Elinizdeki olanakların kıymetini bilin' olmalıdır.",
+        "Doğru cevap B şıkkıdır. Yazar metinde çocukluğunun geçtiği mahalleyi anlatmış ve son cümlede 'burası eserlerimdeki konuya ve karakterlere yön verdi' diyerek çocukluğunun geçtiği yerin eserlerine etkisini açıklamıştır. ",
+        "Doğru cevap D şıkkıdır (III ve IV).Metinde şirketlerin verileri kullanarak kişileri 'etkilemeye çalıştığı' (III. madde) ve kişilerin özelliklerini tespit edebildiği (IV. madde: kişiye özel reklam imkanı) çıkarılabilir. "
+    ],
+
+    "Keywords": [
+        ["söz öbeği", "deyim", "anlam", "mecaz", "yorum", "boşuna uğraşmak"],
+        ["mecaz anlam", "sanat", "yorum", "metafor", "iletişim", "yaşam"],
+        ["koşul", "şart", "durumunda", "ise", "koşul-sonuç", "cümle"],
+        ["öneri", "tavsiye", "cümle anlamı", "yorum", "çıkarım"],
+        ["kesin yargı", "nesnel", "çıkarım", "cümle analizi", "kapsam"],
+        ["yakın anlam", "eş anlam", "yorum", "mutluluk", "kanaat", "yetinmek"],
+        ["dil ve anlatım", "üslup", "karşılaştırma", "öznel", "soru cümlesi"],
+        ["ana düşünce", "asıl anlatılmak istenen", "teknoloji", "bağımlılık", "mesaj"],
+        ["paragraf yapısı", "düşünce akışı", "yerleştirme", "bağlam", "sarnıç"],
+        ["yardımcı düşünce", "olumsuz soru", "çıkarım", "detay", "analiz"],
+        ["amaç", "hedef", "neden-sonuç", "yazarın amacı", "çevre bilinci"],
+        ["şiir", "duygu", "tema", "kahramanlık", "merhamet", "analiz"],
+        ["ortak sonuç", "sentez", "karşılaştırma", "psikosomatik", "genelleme"],
+	["sözcük anlamı", "bağlam", "eşleştirme", "dokunmak", "karıştırmak"],
+        ["deyim", "tecrübe", "anlam ilişkisi", "titizlik", "ince elemek"],
+        ["metin türleri", "deneme", "kanıt", "öznel", "samimiyet"],
+        ["pazarlama miyobu", "görsel okuma", "çıkarım", "fayda-özellik ilişkisi"],
+        ["ön yargı", "tutum", "atasözü yorumu", "tanım", "peşin hüküm"],
+        ["kesin yargı", "özlem", "çıkarım", "cümle yorumu", "tekrar"],
+        ["bağlam", "akış", "nasihat", "pişmanlık", "imkan"],
+        ["soru-cevap", "ana fikir", "yazarın amacı", "eser-yazar ilişkisi"],
+        ["sosyal medya", "veri analizi", "çıkarım", "etkileşim", "reklam"]
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
