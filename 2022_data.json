@@ -1,0 +1,129 @@
+{
+  "Ticket_ID": [
+    "LGS-2022-P-003",
+    "LGS-2022-C-004",
+    "LGS-2022-P-005",
+    "LGS-2022-P-006",
+    "LGS-2022-P-008",
+    "LGS-2022-C-010",
+    "LGS-2022-P-011",
+    "LGS-2022-P-012",
+    "LGS-2022-C-013"
+  ],
+  "Kategori": [
+    "Paragrafta Anlam",
+    "Cümlede Anlam",
+    "Paragrafta Anlam",
+    "Paragrafta Anlam",
+    "Paragrafta Anlam",
+    "Cümlede Anlam",
+    "Paragrafta Anlam",
+    "Paragrafta Anlam",
+    "Cümlede Anlam"
+  ],
+  "Alt Başlık": [
+    "Cümle Yorumu (Söylenemez)",
+    "Söz Öbeği Yorumlama",
+    "Kavramları Yerleştirme (Boşluk Doldurma)",
+    "Konuşmadan Çıkarım (Söylenemez)",
+    "Metin Türleri",
+    "Cümleleri Birleştirme",
+    "Anlatım Özellikleri (Söylenemez)",
+    "Düşüncenin Akışı (Boşluk Doldurma)",
+    "Yakın Anlamlı Cümleler"
+  ],
+  "Metinler": [
+    "Kitaplar, dergiler, makaleler kısaca kâğıt üzerine düşmüş her sözcük anlaşılmak için okuyucudan gayret bekler. Yazar ne kadar açık anlatırsa anlatsın, okurun kültür ve eğitim seviyesi ne kadar yüksek olursa olsun anlatılmak istenen anlaşılmayabilir veya farklı anlaşılabilir. Bunda yazarla okurun hayata bakış açılarının, bilgi ve birikimlerinin farklı olmasının önemli bir etkisi vardır. Yazarla okur bir araya gelip yazılanlar üzerinde tartışmadığı sürece bu durum sürüp gider.",
+    "Yazar, eserinde günümüz dünyasının en tartışmalı sorunlarından biri olan internetin kullanımıyla ilgili çarpıcı tespitlerde bulunarak toplumun bu konudaki bulanık düşüncelerini berraklaştırmıştır.",
+    "Hayat Yaz Yağmuru Gibi adlı tiyatro oyununda farklı insan karakterleri sahneden geçer.",
+    "Pelin ve Melis arasında geçen konuşmada biri bugünü merkeze alırken diğeri geçmişle olan bağlara vurgu yapmaktadır.",
+    "İnsanları bir arada tutan unsurlar sorgulanmış, öznel düşüncelerle sevginin önemi vurgulanmıştır.",
+    "Uzmanlar tarafından yeniden incelenen deniz kabuğunun bulunması, sergilenmesi ve keşfiyle ilgili üç cümle verilmiştir.",
+    "Hem kemankeş hem çilekeş deyiminin kökeni ve anlamı açıklanmıştır.",
+    "Gazeteci ile yazar arasında geçen söyleşide yazma süreci ve etik anlayış ele alınmaktadır.",
+    "Kekova, bu yaz tatilinde gezdiğim koylar içinde en güzel olanıydı."
+  ],
+  "Soru Kökleri": [
+    "Bu metindeki numaralanmış cümlelerle ilgili aşağıdakilerden hangisi söylenemez?",
+    "Bu cümledeki altı çizili sözle anlatılmak istenen aşağıdakilerden hangisi değildir?",
+    "Aşağıdakilerden hangisi bu metinde boş bırakılan yerlerden herhangi birine getirilemez?",
+    "Bu konuşmaya göre aşağıdakilerden hangisi söylenemez?",
+    "Bu parça aşağıdaki metin türlerinden hangisine örnek olabilir?",
+    "Numaralanmış cümlelerin anlamca doğru bir biçimde birleştirilmiş hâli aşağıdakilerden hangisidir?",
+    "Bu metnin anlatımıyla ilgili aşağıdakilerden hangisi söylenemez?",
+    "Bu konuşmada boş bırakılan yerlere düşüncenin akışına göre sırasıyla aşağıdakilerden hangisi getirilmelidir?",
+    "Aşağıdakilerden hangisi anlamca bu cümleye en yakındır?"
+  ],
+  "Cevaplar": [
+    "Doğru cevap C şıkkıdır. Metinde yazarların okurlardan daha geniş bir bakış açısına sahip olduğuna dair bir ifade yer almamaktadır.",
+    "Doğru cevap D şıkkıdır. 'Berraklaştırmak' sözü kuşkuyu gidermek ve aydınlatmak anlamındadır; yanlışlıkları düzeltmek anlamı doğrudan karşılanmaz.",
+    "Doğru cevap D şıkkıdır. Bu ifade metindeki tutum ve karakter sınıflandırmasına uygun değildir.",
+    "Doğru cevap B şıkkıdır. Melis, Pelin’in geçmişi değersiz gördüğünü söylememektedir.",
+    "Doğru cevap B şıkkıdır. Metin kişisel düşünceler içerdiği için deneme türüne örnektir.",
+    "Doğru cevap D şıkkıdır. Cümleler kronolojik ve anlam bütünlüğü korunarak birleştirilmiştir.",
+    "Doğru cevap A şıkkıdır. Metinde tartışmacı anlatım yoktur.",
+    "Doğru cevap B şıkkıdır. Sorular, verilen cevaplarla anlam bakımından uyumludur.",
+    "Doğru cevap B şıkkıdır. Kekova’nın diğer koylardan daha güzel olduğu ifade edilmiştir."
+  ],
+  "Keywords": [
+    [
+      "paragraf",
+      "cümle yorumu",
+      "söylenemez",
+      "okur-yazar ilişkisi",
+      "çıkarım"
+    ],
+    [
+      "söz öbeği",
+      "anlam",
+      "yorum",
+      "mecaz",
+      "berraklaştırmak"
+    ],
+    [
+      "boşluk doldurma",
+      "kavram",
+      "bağlam",
+      "tutum",
+      "çıkarım"
+    ],
+    [
+      "diyalog",
+      "çıkarım",
+      "söylenemez",
+      "bakış açısı",
+      "yorum"
+    ],
+    [
+      "metin türleri",
+      "deneme",
+      "öznel",
+      "sorgulama",
+      "yorum"
+    ],
+    [
+      "cümle birleştirme",
+      "anlam bütünlüğü",
+      "kronoloji",
+      "dil bilgisi"
+    ],
+    [
+      "anlatım özellikleri",
+      "tanımlama",
+      "karşılaştırma",
+      "söylenemez"
+    ],
+    [
+      "düşünce akışı",
+      "söyleşi",
+      "bağlam",
+      "boşluk doldurma"
+    ],
+    [
+      "yakın anlam",
+      "karşılaştırma",
+      "cümle yorumu",
+      "anlam ilişkisi"
+    ]
+  ]
+}
