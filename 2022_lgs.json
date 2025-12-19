@@ -1,0 +1,92 @@
+{
+  "Ticket_ID": [
+    "LGS-2022-C-001",
+    "LGS-2022-C-002",
+    "LGS-2022-C-003",
+    "LGS-2022-C-004",
+    "LGS-2022-C-005",
+    "LGS-2022-C-006",
+    "LGS-2022-C-007"
+  ],
+  "Kategori": [
+    "Söz Öbeğinde Anlam",
+    "Paragraf Yorumu",
+    "Paragrafta Düşünce Akışı",
+    "Metin Yorumu",
+    "Diyalog Yorumu",
+    "Metin Türleri",
+    "Anlamca En Yakın Cümle"
+  ],
+  "Alt_Baslik": [
+    "Deyim Anlamı",
+    "Cümlelerin İşlevi",
+    "Anlam Bütünlüğü",
+    "Karakter Tipleri",
+    "Bakış Açısı",
+    "Düşünce Yazıları",
+    "Anlam Eşdeğerliği"
+  ],
+  "Metinler": [
+    "Yazar, eserinde günümüz dünyasının en tartışmalı sorunlarından biri olan internetin kullanımıyla ilgili çarpıcı tespitlerde bulunarak toplumun bu konudaki bulanık düşüncelerini berraklaştırmıştır.",
+    "Kitaplar, dergiler, makaleler kısaca kâğıt üzerine düşmüş her sözcük anlaşılmak için okuyucudan gayret bekler. Yazar ne kadar açık anlatırsa anlatsın anlatılmak istenen anlaşılmayabilir veya farklı anlaşılabilir. Bunda yazarla okurun hayata bakış açılarının, bilgi ve birikimlerinin farklı olmasının önemli bir etkisi vardır. Yazarla okur bir araya gelip yazılanlar üzerinde tartışmadığı sürece bu durum sürüp gider.",
+    "Şairlerin ilk şiir kitapları çok önemlidir. Sanat hayatları boyunca yayımladıkları şiir kitaplarının sayısı da önemlidir. Çünkü onlarda hem taptaze bir heves hem de uzun sürmesi arzulanan bir yolculuğa dair işaretler vardır. Şairlerin sanat hayatlarının başlangıcı olan kitaplar, zamanla açılıp serpilecek şiirlerinin şifresi gibidir. Bir şairin şiir anlayışını daha iyi belirlemek için de onun ilk adımına bakmak gerekir.",
+    "Hayat Yaz Yağmuru Gibi adlı tiyatro oyununda farklı insan karakterleri sahneye çıkar. Kimi en küçük sorunda paniğe kapılır, kimi uzaktan izler, kimi sorumluluk alır, kimi de sonradan ortaya çıkıp suçlamayı tercih eder.",
+    "Pelin, insanın bugünü doğru değerlendirmesi gerektiğini savunurken Melis yaşadığı yerin geçmişle kurduğu bağı vurgular.",
+    "İnsanları bir arada korku, baskı ya da alışkanlık değil; sevgi tutar. Çünkü sevgi zorlamaz, insanı sarıp sarmalar.",
+    "Kekova, bu yaz tatilinde gezdiğim koylar içinde en güzel olanıydı."
+  ],
+  "Soru_Kokleri": [
+    "Bu cümledeki altı çizili sözle anlatılmak istenen aşağıdakilerden hangisi değildir?",
+    "Bu metindeki numaralanmış cümlelerle ilgili aşağıdakilerden hangisi söylenemez?",
+    "Bu metindeki numaralanmış cümlelerden hangisi düşüncenin akışını bozmaktadır?",
+    "Bu metinde boş bırakılan yerlerden herhangi birine getirilemez?",
+    "Bu konuşmaya göre aşağıdakilerden hangisi söylenemez?",
+    "Bu parça aşağıdaki metin türlerinden hangisine örnek olabilir?",
+    "Aşağıdakilerden hangisi anlamca bu cümleye en yakındır?"
+  ],
+  "Cevaplar": [
+    "Doğru cevap D şıkkıdır. Yanlışlıkları düzeltmek. “Bulanık düşünceleri berraklaştırmak” ifadesi kuşkuları ve tereddütleri gidermek, konuyu aydınlığa kavuşturmak anlamındadır. Yanlışlıkları düzeltmek bu anlam alanına girmez.",
+    "Doğru cevap C şıkkıdır. Yazarların hayata okurlardan daha geniş bir açıyla baktıkları vurgulanmamıştır. Metinde yazar ve okurun bakış açılarının farklı olmasından söz edilmektedir.",
+    "Doğru cevap A şıkkıdır. Sanat hayatı boyunca yayımlanan kitap sayısı metnin ana düşüncesiyle doğrudan bağlantılı değildir.",
+    "Doğru cevap D şıkkıdır. Metindeki karakterler pasif, panikleyen, sorumluluk alan ve sonradan konuşan tiplerdir. Sen yaparsıncılar bu karakter tipleriyle örtüşmez.",
+    "Doğru cevap B şıkkıdır. Melis, Pelin’in geçmişi değersiz gördüğünü söylememektedir; aksine geçmişin sürekliliğini vurgulamaktadır.",
+    "Doğru cevap B şıkkıdır. Metin kişisel görüşlere dayalı, kanıtlama amacı gütmeyen düşünceler içerdiği için deneme türüne örnektir.",
+    "Doğru cevap B şıkkıdır. Bu yaz tatilinde gezdiğim koylardan hiçbiri, Kekova kadar güzel değildi ifadesi anlamca verilen cümleyle aynıdır."
+  ],
+  "Keywords": [
+    [
+      "berraklaştırmak",
+      "söz öbeği",
+      "anlam"
+    ],
+    [
+      "okur",
+      "yazar",
+      "anlama"
+    ],
+    [
+      "düşünce akışı",
+      "şiir",
+      "başlangıç"
+    ],
+    [
+      "karakter",
+      "metafor",
+      "insan tipleri"
+    ],
+    [
+      "geçmiş",
+      "bugün",
+      "bakış açısı"
+    ],
+    [
+      "sevgi",
+      "toplum",
+      "deneme"
+    ],
+    [
+      "anlamca yakınlık",
+      "karşılaştırma"
+    ]
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "Ticket_ID": [
+    "LGS-2023-C-001",
+    "LGS-2023-C-002",
+    "LGS-2023-C-003",
+    "LGS-2023-C-004",
+    "LGS-2023-C-005",
+    "LGS-2023-C-006",
+    "LGS-2023-C-007",
+    "LGS-2023-C-008",
+    "LGS-2023-C-009",
+    "LGS-2023-C-010",
+    "LGS-2023-C-011",
+    "LGS-2023-C-012",
+    "LGS-2023-C-013"
+  ],
+  "Kategori": [
+    "Paragrafta Anlam",
+    "Sözcükte Anlam",
+    "Cümlede Anlam",
+    "Cümlede Anlam",
+    "Cümlede Anlam",
+    "Cümlede Anlam",
+    "Paragrafta Anlam",
+    "Paragrafta Anlam",
+    "Paragrafta Anlam",
+    "Paragrafta Anlam",
+    "Metin Türü ve Anlatım",
+    "Paragrafta Anlam",
+    "Metin Türü"
+  ],
+  "Alt_Baslik": [
+    "Boşluk Doldurma",
+    "Anlam Uyuşmazlığı",
+    "Cümleye Katkı",
+    "Söz Sanatı",
+    "Yorumlama",
+    "Çıkarım",
+    "Ana Düşünce",
+    "Eleştirel Yaklaşım",
+    "Yazar Görüşü",
+    "Düşünceyi Geliştirme",
+    "Anlatım Özellikleri",
+    "Anlam Bütünlüğü",
+    "Metin Türü Dönüşümü"
+  ],
+  "Metinler": [
+    "Ressamın “Pamuk Tarlası ve Kargalar” adlı tablosunu getirin gözlerinizin önüne. Pamuğu simgeleyen beyaz ve kargaları simgeleyen kara, ressamın yansıması sayılmaz mı? Kara ile beyaz arasındaki sanatçının oluşturduğu gerilimin bir anlatımıdır. Ne kargadır anlatılmak istenen ne de pamuk tarlası. Sanatçının amacı - - - -. Böylece ressam, yaşadığı karmaşayı resimlerine yansıtmıştır.",
+    "İlk romanını yayımladığında elli dört yaşında olan yazar, oldukça rağbet gören bu eserinden sonra neredeyse her yıl bir kitap yayımlayarak Türk edebiyatının köşe taşlarından biri olmayı başardı. Yazar, titizlik gösterilerek ve sağlığındaki eski baskıları göz önünde bulundurularak hazırlanan üç muhteşem romanıyla yeniden bizlerle.",
+    "Aslında hepimiz aynı şeyi yapıyoruz. Bizden önceki kuşakların açtıkları edebî damarları genişletiyoruz. Türk edebiyatının bizden önceki kuşaklarının tüm belirgin özellikleri bende ve benim kuşağımdaki diğer yazarlarda var. Biz de bunu kendi üslubumuzla harmanlayarak bizden sonrakilere devrediyoruz.",
+    "Yazmaya başladığımda yetişkinleri hedeflemiştim. Geriye dönüp baktığımda ise eserlerimin çocuklarla ilgili olduğunu görüyorum. Sanki çocuklar, oyun oynarken beni çağırdı. İşte o günden beri çocukların arasından çıkamadım. Bu durumdan çok mutluyum.",
+    "Kelimeler tıpkı gözlükler gibi, netleştiremedikleri her şeyi daha da bulanıklaştırır.",
+    "Türkiye’nin sayılı şairlerinden olan sanatçının “Kırık Tar Sesi” adlı şiirini diğer şiirleri kadar başarılı bulamadım.",
+    "Çocuklar İçin Şiir başlığı altında yayımlanan kimi kitaplarda ne yazık ki çocuk şiiri niteliği taşımayan ürünlerle karşılaşıyoruz. Yapmacık uyak yığınlarıyla oluşturulan bu şiirler çocukların ilgisini çekmiyor. Çocuk, kendisi için yazılan bir şiiri okurken kendinin yazdığını sanmalıdır.",
+    "Öykücü olmak ne demektir? Günümüz edebiyatında anlatı türleri birbirlerinin alanlarına nüfuz etmiş durumdadır. Türleri kesin çizgilerle ayırmak bana doğru gelmiyor.",
+    "Hiçbir kitabımda ön söz yoktur. Büyük iddialar içeren ön sözlerde içtenlik bulamam. Okuyucuya tepeden bakan, okuyucunun beğenisini daha baştan yönlendiren itici bir yanı vardır.",
+    "Müzik; milletleri meydana getiren, şekillendiren ve büyük medeniyetlere dönüştüren bir kültür ögesidir. Üretildiği coğrafyanın kültürel unsurlarını en çarpıcı hâliyle yansıtır.",
+    "Sabaha kadar yürürdük. Gecenin zifirî karanlığında devriye gezerdik. Geceleri çok soğuk, gündüzleri sıcak olurdu. Çöl böyle bir şey olmalıydı.",
+    "Nesiller boyunca çok gezen mi bilir çok okuyan mı ikilemi tartışıldı. Atalarımız ilim için şehirden şehre yolculuk etmişler. Hem çok okuyup hem çok gezmişler.",
+    "Çoğu insanın sabah rutinleri vardır. Benimkisi alışılmışlardan değil. Aklımda kalan bir tekerlemeyi doğru söylemeden yataktan kalkamıyorum."
+  ],
+  "Soru_Kokleri": [
+    "Bu parçada boşluğa düşüncenin akışına göre hangisi getirilmelidir?",
+    "Numaralanmış sözlerden hangisinin anlamı verilen açıklamayla uyuşmamaktadır?",
+    "Altı çizili cümlenin metne kattığı anlam nedir?",
+    "Altı çizili ifadeyle neye gönderme yapılmıştır?",
+    "Bu cümleyle anlatılmak istenen nedir?",
+    "Hangi yargılara ulaşılabilir?",
+    "Bu metinde anlatılmak istenen nedir?",
+    "Yazarın asıl eleştirdiği durum nedir?",
+    "Yazarın ön sözlerle ilgili görüşlerinden biri değildir?",
+    "Bu metinde hangi düşünceyi geliştirme yolları kullanılmıştır?",
+    "Bu metinle ilgili hangisi söylenemez?",
+    "Cümle hangi numaradan sonra gelirse anlam bozulmaz?",
+    "Parça hangisiyle devam ederse öyküleyici olur?"
+  ],
+  "Cevaplar": [
+    "Doğru cevap A şıkkıdır. İç dünyasının karşıtlık ve çelişkilerine vurgu yapmaktır. Metinde siyah ve beyaz karşıtlığı üzerinden ressamın iç dünyasındaki karmaşa anlatılmaktadır.",
+    "Doğru cevap C şıkkıdır. III. numaralı söz. Bu sözün anlamı parantez içinde verilen açıklamayla örtüşmemektedir.",
+    "Doğru cevap D şıkkıdır. Edebî mirasa sahip çıkıp ona yeni bir yorum katıyoruz. Yazar, önceki kuşaklardan aldıklarını kendi üslubuyla geliştirerek sonraki kuşaklara aktardığını vurgulamaktadır.",
+    "Doğru cevap C şıkkıdır. Kitaplarının çocuklara yönelik olmasına. Yazar, yazdıklarının zamanla çocuklara hitap ettiğini fark ettiğini ifade etmektedir.",
+    "Doğru cevap B şıkkıdır. Anlatılmak isteneni açıkça ifade edemeyen kelimeler anlamayı zorlaştırır. Benzetme yoluyla bu düşünce aktarılmıştır.",
+    "Doğru cevap C şıkkıdır. I ve II. Sanatçının önemli bir şair olduğu ve diğer şiirlerinin başarılı olduğu çıkarımı yapılabilir.",
+    "Doğru cevap B şıkkıdır. Çocuklara yönelik şiir yazanlar onların dünyalarından ilham almalıdır. Metnin ana düşüncesi budur.",
+    "Doğru cevap A şıkkıdır. Türleri keskin çizgilerle ayırma çabası. Yazar bu yaklaşımı eleştirmektedir.",
+    "Doğru cevap D şıkkıdır. Eserdeki içeriğin anlaşılmasını zorlaştırmaktadır. Metinde böyle bir görüşe yer verilmemiştir.",
+    "Doğru cevap B şıkkıdır. Benzetme ve tanımlama. Müzik tanımlanmış ve etkisi benzetme yoluyla anlatılmıştır.",
+    "Doğru cevap B şıkkıdır. Hayalî unsurlara yer verilmiştir. Metin tamamen gözlem ve yaşantıya dayalıdır.",
+    "Doğru cevap B şıkkıdır. II. cümleden sonra. Bu noktadan sonra verilen cümle metnin akışını bozmaz.",
+    "Doğru cevap D şıkkıdır. Olay ve kişi içeren anlatım. Bu devam metni öyküleyici anlatım oluşturur."
+  ],
+  "Keywords": [
+    [
+      "karşıtlık",
+      "sanat",
+      "iç dünya"
+    ],
+    [
+      "anlam",
+      "sözcük",
+      "uyuşmazlık"
+    ],
+    [
+      "edebî miras",
+      "üslup",
+      "kuşak"
+    ],
+    [
+      "çocuk",
+      "yazarlık",
+      "hedef kitle"
+    ],
+    [
+      "kelime",
+      "anlam",
+      "iletişim"
+    ],
+    [
+      "çıkarım",
+      "şiir",
+      "yorum"
+    ],
+    [
+      "çocuk şiiri",
+      "duyarlılık",
+      "ana düşünce"
+    ],
+    [
+      "edebiyat",
+      "tür",
+      "eleştiri"
+    ],
+    [
+      "ön söz",
+      "yazar görüşü",
+      "okur"
+    ],
+    [
+      "tanımlama",
+      "benzetme",
+      "müzik"
+    ],
+    [
+      "betimleme",
+      "gözlem",
+      "anlatım"
+    ],
+    [
+      "okumak",
+      "gezmek",
+      "medeniyet"
+    ],
+    [
+      "öyküleme",
+      "rutin",
+      "anlatım"
+    ]
+  ]
+}
