@@ -186,11 +186,6 @@ async function getTrends() {
 - Her istekte 1-10 arası soru üretilebilir
 - Zorluk seviyeleri: `kolay`, `orta`, `zor`
 
-## 👥 Katkıda Bulunanlar
-
-- Model Geliştirme: [Sizin İsminiz]
-- Web Arayüzü: [Arkadaşlarınızın İsimleri]
-
 ## 📄 Lisans
 
 Bu proje eğitim amaçlıdır.
