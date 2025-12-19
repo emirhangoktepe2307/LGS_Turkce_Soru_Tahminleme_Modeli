@@ -1,182 +1,196 @@
-# 📚 LGS Türkçe Soru Tahminleme Modeli
+# 🎓 LGS Türkçe Soru Tahminleme Modeli
 
-**LLM (Large Language Model) Tabanlı Yapay Zeka Soru Üretim ve Tahminleme Sistemi**
+**Hibrit AI Model**: Veri Analizi + Google Gemini API
 
-## 🎯 Proje Hakkında
+Bu proje, geçmiş yılların LGS Türkçe sorularını analiz ederek 2026 sınavı için yeni soru tahminleri üretir.
 
-Bu proje, LGS (Liselere Geçiş Sınavı) Türkçe dersi için LLM tabanlı soru tahminleme ve üretim sistemidir. Google Gemini API kullanarak geçmiş yılların sorularından öğrenir ve yeni, özgün sorular üretir.
-
-### 🏗️ Mimari
-
-```
-┌─────────────────────────────────────────────────────┐
-│                    Kullanıcı Arayüzü                │
-│                  (Streamlit Web App)                 │
-└─────────────────────┬───────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────┐
-│                   LLM Model                         │
-│              (Google Gemini API)                    │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐ │
-│  │Soru Üretimi │  │Konu Tahmini │  │   Analiz    │ │
-│  └─────────────┘  └─────────────┘  └─────────────┘ │
-└─────────────────────┬───────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────┐
-│                  Veri İşleme                        │
-│              (Data Processor)                       │
-│  ┌─────────────────────────────────────────────┐   │
-│  │         LGS Türkçe Soru Veritabanı          │   │
-│  │           (JSON - Eğitim Verisi)            │   │
-│  └─────────────────────────────────────────────┘   │
-└─────────────────────────────────────────────────────┘
-```
-
-### Özellikler
-
-- 🤖 **LLM Tabanlı Soru Üretimi**: Gemini API ile akıllı soru üretimi
-- 🎯 **Konu Tahmini**: Soruların hangi konuya ait olduğunu tahmin eder
-- 📊 **Soru Analizi**: Detaylı soru analizi ve çözüm stratejileri
-- 💬 **Sohbet Botu**: Türkçe konularında yardımcı asistan
-- 📖 **Konu Anlatımı**: Detaylı konu açıklamaları
-- 🎓 **Sadece Türkçe**: Diğer derslere cevap vermez
-
-## 🛠️ Kurulum
-
-### Gereksinimler
-
-- Python 3.9 veya üstü
-- Google Gemini API anahtarı
-
-### Adım Adım Kurulum
-
-1. **Gerekli kütüphaneleri yükleyin:**
-
-```bash
-pip install -r requirements.txt
-```
-
-2. **Gemini API Anahtarını Ayarlayın:**
-
-`config.py` dosyasını açın ve API anahtarınızı girin:
-
-```python
-GEMINI_API_KEY = "sizin_api_anahtariniz"
-```
-
-API anahtarı almak için: https://makersuite.google.com/app/apikey
-
-3. **Uygulamayı Çalıştırın:**
-
-```bash
-streamlit run app.py
-```
-
-## 📁 Dosya Yapısı
+## 📁 Proje Yapısı
 
 ```
 Model_Mimarisi/
-├── app.py                    # Streamlit web arayüzü
-├── config.py                 # Yapılandırma ve prompt şablonları
-├── llm_model.py             # LLM model sınıfı (Gemini API)
-├── data_processor.py        # Veri işleme modülü
-├── lgs_turkce_sorulari.json # Eğitim verisi (örnek sorular)
-├── requirements.txt         # Python bağımlılıkları
-├── Dockerfile               # Docker yapılandırması
-├── docker-compose.yml       # Docker Compose
-├── run.bat                  # Windows başlatma scripti
-├── run.ps1                  # PowerShell başlatma scripti
-└── README.md                # Bu dosya
+├── model/                      # AI Model Modülleri
+│   ├── __init__.py
+│   ├── data_analyzer.py       # Veri analizi ve pattern çıkarma
+│   ├── gemini_client.py       # Gemini API entegrasyonu
+│   └── question_predictor.py  # Hibrit tahminleme sistemi
+├── api/                        # REST API
+│   ├── __init__.py
+│   └── endpoints.py           # FastAPI endpoints
+├── data.json                   # Eğitim verisi (185+ LGS sorusu)
+├── main.py                     # Ana uygulama
+├── config.py                   # Yapılandırma
+├── requirements.txt            # Bağımlılıklar
+└── .env                        # API anahtarları (oluşturulmalı)
 ```
 
-## 🚀 Kullanım
+## 🚀 Kurulum
 
-### Web Arayüzü
+### 1. Bağımlılıkları Yükleyin
 
 ```bash
-streamlit run app.py
+cd Model_Mimarisi
+pip install -r requirements.txt
 ```
 
-Tarayıcınızda `http://localhost:8501` adresine gidin.
+### 2. API Anahtarını Ayarlayın
 
-### Python API
+`.env` dosyası oluşturun:
 
-```python
-from llm_model import LGSTurkceModel
-
-# Modeli başlat
-model = LGSTurkceModel()
-
-# Soru üret
-sorular = model.generate_questions(
-    konu="Sözcükte Anlam",
-    zorluk="Orta",
-    adet=3
-)
-print(sorular)
-
-# Konu tahmini yap
-konu = model.predict_topic("Aşağıdaki cümlelerin hangisinde zıt anlamlı sözcükler kullanılmıştır?")
-print(f"Tahmin: {konu}")
-
-# Soru analizi
-analiz = model.analyze_question("...")
-print(analiz)
+```env
+Gemini_API_Key=your_gemini_api_key_here
 ```
 
-## 📚 Desteklenen Konular
+> API anahtarı almak için: https://makersuite.google.com/app/apikey
 
-| Ana Konu | Alt Konular |
-|----------|-------------|
-| Sözcükte Anlam | Eş Anlam, Zıt Anlam, Mecaz Anlam, Sesteş, Deyimler |
-| Cümlede Anlam | Öznel/Nesnel Yargı, Neden-Sonuç, Koşul-Sonuç |
-| Paragrafta Anlam | Ana Düşünce, Yardımcı Düşünce, Başlık |
-| Dil Bilgisi | Fiil Kipleri, İsim Tamlaması, Sıfatlar, Zarflar |
-| Yazım Kuralları | Büyük Harf, Ki/De Yazımı |
-| Noktalama İşaretleri | Virgül, İki Nokta, Noktalı Virgül |
-| Söz Sanatları | Benzetme, Kişileştirme, Abartma |
-| Anlatım Bozuklukları | Gereksiz Sözcük, Özne-Yüklem Uyumu |
-| Fiilde Çatı | Ettirgen, Edilgen, Dönüşlü, İşteş |
-| Cümle Türleri | Basit, Birleşik, Sıralı |
+## 🖥️ Kullanım
 
-## ⚙️ Yapılandırma
+### REST API Sunucusu (Web Entegrasyonu İçin)
 
-`config.py` dosyasından ayarları özelleştirebilirsiniz:
+```bash
+python main.py --api
+```
 
-```python
-# API Ayarları
-GEMINI_API_KEY = "your-api-key"
-GEMINI_MODEL = "gemini-1.5-flash"  # veya "gemini-1.5-pro"
+Sunucu başladığında:
+- **API Docs**: http://localhost:8000/docs
+- **ReDoc**: http://localhost:8000/redoc
+- **API Base**: http://localhost:8000/api/v1
 
-# Eğitim Ayarları
-TRAINING_CONFIG = {
-    "epochs": 3,
-    "batch_size": 8,
-    "learning_rate": 2e-5,
-    "max_length": 512
+### CLI Modu (Test için)
+
+```bash
+python main.py --cli
+```
+
+## 📡 REST API Endpoints
+
+### Temel Endpoints
+
+| Endpoint | Method | Açıklama |
+|----------|--------|----------|
+| `/api/v1/status` | GET | Model durumu |
+| `/api/v1/categories` | GET | Desteklenen kategoriler |
+| `/api/v1/statistics` | GET | Veri istatistikleri |
+
+### Soru Üretimi
+
+| Endpoint | Method | Açıklama |
+|----------|--------|----------|
+| `/api/v1/generate` | POST | Yeni soru üret |
+| `/api/v1/predict/trends` | GET | 2026 trend tahminleri |
+| `/api/v1/analyze` | POST | Soru analizi |
+| `/api/v1/sample/{category}` | GET | Örnek sorular |
+
+### Örnek İstekler
+
+#### Soru Üretme
+
+```bash
+curl -X POST "http://localhost:8000/api/v1/generate" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "category": "Paragrafta Anlam",
+    "count": 5,
+    "difficulty": "orta"
+  }'
+```
+
+#### 2026 Trend Tahminleri
+
+```bash
+curl "http://localhost:8000/api/v1/predict/trends"
+```
+
+#### Soru Analizi
+
+```bash
+curl -X POST "http://localhost:8000/api/v1/analyze" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "question_text": "Aşağıdaki cümlelerin hangisinde neden-sonuç ilişkisi vardır?"
+  }'
+```
+
+## 📊 Veri Seti
+
+`data.json` dosyası şunları içerir:
+- **185+ LGS sorusu** (2018-2021 yılları)
+- **MEB örnek soruları**
+- **6 ana kategori**: Paragrafta Anlam, Cümlede Anlam, Sözcükte Anlam, Söz Öbeğinde Anlam, Paragrafta Yapı, Şiirde Anlam
+
+### Veri Yapısı
+
+```json
+{
+  "Ticket_ID": ["LGS-2018-C-001", ...],
+  "Kategori": ["Söz Öbeğinde Anlam", ...],
+  "Alt Başlık": ["Sözcük Grubu Yorumlama", ...],
+  "Metinler": ["Metin içeriği...", ...],
+  "Soru Kökleri": ["Soru metni...", ...],
+  "Cevaplar": ["Doğru cevap ve açıklama...", ...],
+  "Keywords": [["anahtar", "kelimeler"], ...]
 }
 ```
 
-## 🐳 Docker ile Çalıştırma
+## 🔄 Hibrit Model Çalışma Prensibi
 
-```bash
-docker-compose up --build
+```
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│   data.json     │────▶│  DataAnalyzer   │────▶│ Pattern & Stats │
+│  (LGS Soruları) │     │ (Veri Analizi)  │     │   Extraction    │
+└─────────────────┘     └─────────────────┘     └────────┬────────┘
+                                                         │
+                                                         ▼
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│  Yeni Sorular   │◀────│  GeminiClient   │◀────│ Context + Few   │
+│   (Tahminler)   │     │ (Soru Üretimi)  │     │  Shot Examples  │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
 ```
 
-## 🔒 Güvenlik
+1. **Veri Analizi**: Geçmiş LGS soruları analiz edilir
+2. **Pattern Çıkarma**: Soru kalıpları ve trendler belirlenir
+3. **Context Oluşturma**: Gemini için zengin bağlam hazırlanır
+4. **Soru Üretimi**: Gemini API ile özgün sorular üretilir
 
-- API anahtarınızı asla paylaşmayın
-- Üretim ortamında çevre değişkenleri kullanın:
+## 🌐 Web Entegrasyonu
 
-```bash
-export GEMINI_API_KEY="your-api-key"
+Arkadaşlarınız web sitesinde bu API'yi şu şekilde kullanabilir:
+
+```javascript
+// Soru üret
+async function generateQuestions() {
+  const response = await fetch('http://localhost:8000/api/v1/generate', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      category: 'Paragrafta Anlam',
+      count: 5,
+      difficulty: 'orta'
+    })
+  });
+  const data = await response.json();
+  return data.data.generated_questions;
+}
+
+// Trend tahminleri al
+async function getTrends() {
+  const response = await fetch('http://localhost:8000/api/v1/predict/trends');
+  const data = await response.json();
+  return data.data.trend_predictions;
+}
 ```
+
+## 📝 Notlar
+
+- Model sadece **Türkçe dersi** soruları üretir
+- Diğer derslerle ilgili istekler reddedilir
+- Her istekte 1-10 arası soru üretilebilir
+- Zorluk seviyeleri: `kolay`, `orta`, `zor`
+
+## 👥 Katkıda Bulunanlar
+
+- Model Geliştirme: [Sizin İsminiz]
+- Web Arayüzü: [Arkadaşlarınızın İsimleri]
 
 ## 📄 Lisans
 
-MIT License
-
----
-
-**⚠️ Not:** Bu sistem sadece LGS Türkçe dersi için tasarlanmıştır. 
-Matematik, Fen Bilimleri, Sosyal Bilgiler gibi diğer dersler için soru üretmez.
+Bu proje eğitim amaçlıdır.
