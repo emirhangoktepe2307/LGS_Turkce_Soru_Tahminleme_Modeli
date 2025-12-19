@@ -153,7 +153,7 @@ curl -X POST "http://localhost:8000/api/v1/analyze" \
 
 ## 🌐 Web Entegrasyonu
 
-Arkadaşlarınız web sitesinde bu API'yi şu şekilde kullanabilir:
+Web sitesinde API'yi şu şekilde kullanabilirsiniz:
 
 ```javascript
 // Soru üret
