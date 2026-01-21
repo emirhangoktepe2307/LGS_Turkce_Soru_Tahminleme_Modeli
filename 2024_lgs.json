@@ -1,0 +1,136 @@
+{
+  "Ticket_ID": [
+    "LGS-2024-C-001",
+    "LGS-2024-C-002",
+    "LGS-2024-C-003",
+    "LGS-2024-C-004",
+    "LGS-2024-C-005",
+    "LGS-2024-C-006",
+    "LGS-2024-C-007",
+    "LGS-2024-C-008",
+    "LGS-2024-C-009",
+    "LGS-2024-C-010",
+    "LGS-2024-C-011",
+    "LGS-2024-C-012"
+  ],
+  "Kategori": [
+    "Sözcükte Anlam",
+    "Deyim Yorumu",
+    "Cümlede Anlam",
+    "Cümle Birleştirme",
+    "Anlamca Yakınlık",
+    "Söz Öbeğinde Anlam",
+    "Uygulamalı Etkinlik",
+    "Şiir Yorumu",
+    "Metin Türleri",
+    "Anlatım Özellikleri",
+    "Anlatım Bozukluğu",
+    "Paragrafta Anlam"
+  ],
+  "Alt_Baslik": [
+    "Çok Anlamlılık",
+    "Deyim Anlamı",
+    "Koşul Anlamı",
+    "Anlam Bütünlüğü",
+    "Özdeyiş Yorumu",
+    "Davranış Eleştirisi",
+    "Gözlem ve Tasarı",
+    "Ana Düşünce",
+    "Düşünce Yazıları",
+    "Anlatım Teknikleri",
+    "Mantıksal Tutarlılık",
+    "Yargı Çıkarma"
+  ],
+  "Metinler": [
+    "Tamirci, benim arabamı tamir etmeyi bırakıp yeni gelen müşteriyle ilgilendi. İnsanların nasıl düşünüyorsa öyle yaşamasına karışılmaması, tadilat süresince eşyaların komşuya verilmesi ve ustanın işi kalfasına devretmesi anlatılmaktadır.",
+    "Trabzon’dan ayrılış, gurbetten çok geride bırakılanların acısı, bilinmeyene yapılan yolculuk ve zorluklara rağmen yola devam etme durumu anlatılmaktadır.",
+    "Sözcüklerin bireyin düşünce dünyasını geliştirdiği, doğru kararlar alabilmek için bu birikime ihtiyaç olduğu ve sözcük sayısı arttıkça düşüncenin genişlediği vurgulanmaktadır.",
+    "Döngüsel ekonomi modelinin kullanılmış malzemelerin dönüştürülmesine dayandığı, Anadolu’da yüzyıllardır uygulandığı ve Birleşmiş Milletler tarafından kalkınma planına alındığı belirtilmektedir.",
+    "Zamanın fırsatları barındırdığı, fırsatın ise kısa süreli olduğu ve iyi değerlendirilmesi gerektiği düşüncesi aktarılmaktadır.",
+    "Sosyal medyada insanların gerçek kimliklerinden uzaklaşıp olmadıkları gibi davranmaları eleştirilmektedir.",
+    "Öğrencilere verilen etkinliklerde gözlem yapılması, uygulama gerçekleştirilmesi ve planlı bir tasarının ortaya konması amaçlanmaktadır.",
+    "Şiirde geçmişe takılmadan ileriye yönelme ve geleceğe odaklanma düşüncesi işlenmektedir.",
+    "Mahalle kültürünün kaybolmasıyla insanlar ve kediler arasındaki ortak yaşamın sona ermesi anlatılmaktadır.",
+    "Dilimizin Zenginlikleri projesiyle öğrencilerin klasik eserler aracılığıyla sözlük kullanma alışkanlığı kazandığı ifade edilmektedir.",
+    "Bir sahnede kişinin sözlerini anlamaya engel olmayan fiziksel koşullar anlatılmaktadır.",
+    "Dilini koruyamayan milletlerin kültürel varlığını sürdüremeyeceği ve dil bilincinin genç nesillere aktarılması gerektiği vurgulanmaktadır."
+  ],
+  "Soru_Kokleri": [
+    "Bırakmak sözcüğü aşağıdaki anlamlardan hangisiyle kullanılmamıştır?",
+    "Yay ayraç içinde verilen deyimle ilişkilendirilebilir durum hangisidir?",
+    "Numaralanmış cümlelerin hangisinde koşul anlamı vardır?",
+    "Cümlelerin anlamca doğru birleştirilmiş hâli hangisidir?",
+    "Bu cümleye anlamca en yakın ifade hangisidir?",
+    "Altı çizili sözle anlatılmak istenene örnek olamaz?",
+    "Tüm şartların sağlandığı etkinlik hangisidir?",
+    "Şiirde anlatılmak istenen düşünce hangisidir?",
+    "Metnin türüyle ilgili doğru yargı hangisidir?",
+    "Parçayla ilgili doğru yargılar hangileridir?",
+    "Metnin anlatımı hangi durumda kusurlu olur?",
+    "Metinden çıkarılamayacak yargı hangisidir?"
+  ],
+  "Cevaplar": [
+    "Doğru cevap A şıkkıdır. Bir işi başka bir zamana ertelemek. Cümlelerde bırakmak sözcüğü vazgeçmek, teslim etmek, görevlendirmek ve engel olmamak anlamlarında kullanılmıştır; erteleme anlamı yoktur.",
+    "Doğru cevap C şıkkıdır. Göze almak. Metinde zorluklara rağmen yolculuğa çıkma ve karşılaşılacak her durumu kabul etme durumu anlatılmaktadır.",
+    "Doğru cevap D şıkkıdır. Ne kadar sözcüğünüz varsa o kadar geniş düşünür ve özgürleşirsiniz. Sözcük sayısının artması koşuluna bağlı olarak sonuç verilmiştir.",
+    "Doğru cevap B şıkkıdır. Anadolu’da uygulanan döngüsel ekonomi modelinin Birleşmiş Milletler tarafından kalkınma planına alınması anlamca doğru sırayla birleştirilmiştir.",
+    "Doğru cevap D şıkkıdır. Fırsatın kısa süreli olduğu ve değerlendirilmezse kaçırılacağı vurgulanmaktadır.",
+    "Doğru cevap C şıkkıdır. Gerçekten keyif alınan bir anın paylaşılması mış gibi yapmak değildir.",
+    "Doğru cevap B şıkkıdır. Ses haritası çalışmasında gözlem, uygulama ve planlı tasarı birlikte yer almaktadır.",
+    "Doğru cevap A şıkkıdır. Şiirde geçmişe takılmadan geleceğe yönelme düşüncesi anlatılmaktadır.",
+    "Doğru cevap C şıkkıdır. Metin kişisel değerlendirmelere dayalıdır ve kanıtlama amacı yoktur.",
+    "Doğru cevap B şıkkıdır. Metinde nesnel yargılar ve niteleyici sözcükler kullanılmıştır.",
+    "Doğru cevap D şıkkıdır. Sevinç ifadesi bağlamla çeliştiği için anlatımda mantıksal tutarsızlık oluşturur.",
+    "Doğru cevap A şıkkıdır. Metinde sanatta millî unsurların işlenmesi gerektiği doğrudan ifade edilmemiştir."
+  ],
+  "Keywords": [
+    [
+      "bırakmak",
+      "çok anlamlılık"
+    ],
+    [
+      "deyim",
+      "yolculuk"
+    ],
+    [
+      "koşul",
+      "sözcük"
+    ],
+    [
+      "cümle birleştirme",
+      "anlam"
+    ],
+    [
+      "özdeyiş",
+      "fırsat"
+    ],
+    [
+      "sosyal medya",
+      "davranış"
+    ],
+    [
+      "gözlem",
+      "tasarı"
+    ],
+    [
+      "şiir",
+      "gelecek"
+    ],
+    [
+      "metin türü",
+      "öznel"
+    ],
+    [
+      "anlatım",
+      "nesnellik"
+    ],
+    [
+      "mantık",
+      "tutarlılık"
+    ],
+    [
+      "dil",
+      "millî kültür"
+    ]
+  ]
+}
