@@ -1,0 +1,217 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff; /* Default body bg */
+    margin: 0;
+}
+
+/* Header Styling */
+.main-header {
+    background-color: #FAFAFA;
+    border-bottom: 1px solid #e5e7eb; /* Optional subtle border */
+}
+
+/* Logo Styling */
+.logo-area {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.logo-top {
+    font-size: 40px; /* Adjust size as needed */
+    letter-spacing: -1px;
+       margin-left: 12px;
+}
+
+.logo-t {
+    color: #EF4444;
+}
+
+.logo-x {
+    color: #111827;
+}
+
+.logo-bottom {
+    font-size: 26px;
+}
+
+.text-tahmin {
+    color: #111827;
+}
+
+.text-x {
+    color: #EF4444;
+}
+
+/* Button Styling */
+.btn-custom-signup {
+    background-color: #ffffff;
+    color: #111827;
+    border: 1px solid #EF4444;
+    border-radius: 11px;
+    padding: 8px 24px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.btn-custom-signup:hover {
+    background-color: #EF4444;
+    color: #ffffff;
+}
+
+/* Navbar Styling */
+.main-navbar {
+    background-color: #FAFAFA;
+    border-top: 1px solid #959595;
+    justify-content: center;
+    align-self: center;
+}
+
+.nav-link-custom {
+    color: #626262;
+    text-decoration: none;
+    font-weight: 600; /* Matching header weight for consistency */
+    font-size: 16px;
+    padding: 8px 0;
+    transition: color 0.2s ease;
+}
+
+.nav-link-custom:hover {
+    color: #111827; /* Darker on hover */
+}
+.profile-page {
+    max-width: 1150px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* ÜST BİLGİ KARTI */
+.profile-header-card {
+    background: #fff;
+    padding: 26px 32px;
+    border-radius: 22px;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.user-info-left {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.profile-avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-name {
+    font-size: 22px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.profile-email {
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.profile-badge {
+    padding: 4px 10px;
+    background: #EF4444;
+    color: white;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+/* Sağ taraf butonlar */
+.btn-edit {
+    background: #111827;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 10px;
+}
+
+.btn-logout {
+    background: #EF4444;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* İSTATİSTİK KARTLARI */
+.stats-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+    margin-bottom: 40px;
+}
+
+.stat-card {
+    background: white;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.06);
+}
+
+.stat-title {
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.stat-value {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 6px;
+    color: #111827;
+}
+
+
+/* GRAFİK + TABLO */
+.dashboard-row {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 24px;
+}
+
+.chart-card,
+.table-card {
+    background: white;
+    padding: 26px;
+    border-radius: 22px;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.06);
+}
+
+.chart-title,
+.table-title {
+    margin-bottom: 18px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.recent-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.recent-table th {
+    text-align: left;
+    padding: 8px 0;
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.recent-table td {
+    padding: 10px 0;
+    font-size: 15px;
+}

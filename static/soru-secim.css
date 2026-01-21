@@ -1,0 +1,446 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    /* Default body bg */
+    margin: 0;
+}
+
+/* Header Styling */
+.main-header {
+    background-color: #FAFAFA;
+    border-bottom: 1px solid #e5e7eb;
+    /* Optional subtle border */
+}
+
+/* Logo Styling */
+.logo-area {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.logo-top {
+    font-size: 40px;
+    /* Adjust size as needed */
+    letter-spacing: -1px;
+    margin-left: 12px;
+}
+
+.logo-t {
+    color: #EF4444;
+}
+
+.logo-x {
+    color: #111827;
+}
+
+.logo-bottom {
+    font-size: 26px;
+}
+
+.text-tahmin {
+    color: #111827;
+}
+
+.text-x {
+    color: #EF4444;
+}
+
+/* Button Styling */
+.btn-custom-signup {
+    background-color: #ffffff;
+    color: #111827;
+    border: 1px solid #EF4444;
+    border-radius: 11px;
+    padding: 8px 24px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.btn-custom-signup:hover {
+    background-color: #EF4444;
+    color: #ffffff;
+}
+
+/* Navbar Styling */
+.main-navbar {
+    background-color: #FAFAFA;
+    border-top: 1px solid #959595;
+    justify-content: center;
+    align-self: center;
+}
+
+.nav-link-custom {
+    color: #626262;
+    text-decoration: none;
+    font-weight: 600;
+    /* Matching header weight for consistency */
+    font-size: 16px;
+    padding: 8px 0;
+    transition: color 0.2s ease;
+}
+
+.nav-link-custom:hover {
+    color: #111827;
+    /* Darker on hover */
+}
+
+/* Search Widget Container */
+.search-widget {
+    background: #ffffff;
+    border-radius: 20px;
+    /* Slightly more rounded */
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+    /* Softer, larger shadow */
+    padding: 40px;
+    /* Increased padding */
+    max-width: 1000px;
+    /* Increased width */
+    margin: 0 auto;
+    border: 1px solid #e5e7eb;
+}
+
+/* Tabs */
+.search-tabs {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 30px;
+    /* Increased spacing */
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 0;
+}
+
+.search-tab {
+    font-size: 18px;
+    /* Slightly larger text */
+    font-weight: 700;
+    color: #6B7280;
+    padding-bottom: 16px;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.search-tab:hover {
+    color: #111827;
+}
+
+.search-tab.active {
+    color: #111827;
+    /* Dark text for active state */
+}
+
+.search-tab.active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    /* Slightly thicker */
+    background: linear-gradient(to right, #EF4444, #111827);
+    /* Gradient Red to Black */
+    border-radius: 4px 4px 0 0;
+}
+
+/* Search Body */
+.search-body {
+    padding-top: 10px;
+}
+
+/* Input Groups */
+.input-group-custom {
+    background: #ffffff;
+    border: 1px solid #D1D5DB;
+    border-radius: 12px;
+    /* More rounded */
+    padding: 10px 16px;
+    /* Increased padding */
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-group-custom:hover,
+.input-group-custom:focus-within {
+    border-color: #EF4444;
+    /* Red border on focus */
+    box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+}
+
+.input-label {
+    font-size: 13px;
+    color: #6B7280;
+    font-weight: 700;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+
+.custom-select {
+    border: none;
+    padding: 0;
+    font-size: 18px;
+    /* Larger text */
+    font-weight: 700;
+    color: #111827;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.custom-select:focus {
+    box-shadow: none;
+}
+
+/* Search Button */
+.btn-search {
+    background-color: #EF4444;
+    /* Red background */
+    color: white;
+    font-weight: 700;
+    padding: 12px 20px;
+    /* Reduced padding/height */
+    border-radius: 12px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.btn-search:hover {
+    background-color: #dc2626;
+    /* Darker red */
+    color: white;
+    transform: translateY(-1px);
+}
+
+.btn-search:active {
+    transform: translateY(0);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .search-widget {
+        padding: 24px;
+    }
+
+    .search-tabs {
+        gap: 20px;
+    }
+
+    .search-tab {
+        font-size: 14px;
+    }
+
+    .btn-search {
+        margin-top: 10px;
+    }
+}
+
+/* Main Content Wrapper for Vertical Centering */
+.main-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 160px);
+    /* Approximate header + navbar height */
+    padding: 20px;
+}
+
+.hero {
+    position: relative;
+    padding: 140px 0 260px;
+    text-align: center;
+    /* overflow: hidden;  <-- REMOVED to see questions */
+}
+
+/* GENEL GLOW BASE */
+.hero-glow {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(160px);
+    opacity: 0.75;
+    z-index: -1;
+}
+
+/* DIŞ KATMAN — DEV OVAL (arka planı dolduran) */
+.hero-glow.big {
+    width: 1800px;
+    height: 1800px;
+    top: -300px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: radial-gradient(circle at center,
+            rgba(239, 68, 68, 0.55) 0%,
+            rgba(17, 24, 39, 0.65) 50%,
+            rgba(17, 24, 39, 1) 100%);
+}
+
+/* İÇ KATMAN — DAHA PARLAK SPOTLIGHT */
+.hero-glow.inner {
+    width: 900px;
+    height: 900px;
+    top: -120px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: radial-gradient(circle at center,
+            rgba(239, 68, 68, 0.65) 0%,
+            rgba(239, 68, 68, 0.25) 40%,
+            rgba(17, 24, 39, 0.2) 80%);
+}
+
+
+/* HERO TEXT */
+.hero-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #111827;
+}
+
+.hero-title span {
+    color: #EF4444;
+}
+
+.hero-subtitle {
+    margin-top: 12px;
+    font-size: 18px;
+    color: #4B5563;
+}
+
+/* Genel panel boyutu */
+.panel-container {
+    max-width: 720px;
+    /* biraz dar */
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+/* Sekmeler – sola yakın */
+.panel-tabs {
+    display: flex;
+    gap: 32px;
+    justify-content: flex-start;
+    /* sola yasla */
+    margin-bottom: 18px;
+}
+
+.panel-tab {
+    position: relative;
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 0 0 8px 0;
+    color: #9CA3AF;
+}
+
+.panel-tab.active {
+    color: #111827;
+}
+
+/* gradient underline */
+.panel-tab::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0%;
+    border-radius: 999px;
+    background: linear-gradient(to right, #EF4444, #111827);
+    transition: width 0.25s ease;
+}
+
+.panel-tab.active::after {
+    width: 100%;
+}
+
+/* Kart – daha yüksek, nefesli */
+.panel-card {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 32px 32px 26px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+}
+
+/* Dropdown satırı */
+.panel-row {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+/* Alan */
+.panel-field {
+    flex: 1;
+    min-width: 260px;
+    /* dropdown genişliği */
+    text-align: left;
+}
+
+.panel-label {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: #9CA3AF;
+    margin-bottom: 6px;
+}
+
+/* Dropdown – daha geniş, daha yüksek */
+.panel-select {
+    width: 100%;
+    height: 39px;
+    padding: 14px 16px;
+    /* yükseklik */
+    border-radius: 14px;
+    border: 1px solid #D1D5DB;
+    background: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    transition: 0.2s;
+}
+
+.panel-select:focus {
+    border-color: #EF4444;
+    box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.20);
+}
+
+/* Buton alt satırda, daha küçük */
+.panel-button-row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    /* sola yakın */
+}
+
+.panel-btn {
+    padding: 14px 39px;
+    /* yükseklik/ genişlik azaltıldı */
+    border-radius: 17px;
+    border: none;
+    background: #EF4444;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 8px 18px rgba(239, 68, 68, 0.35);
+    transition: 0.2s ease;
+
+}
+
+.panel-btn:hover {
+    background: #dc2626;
+    transform: translateY(-1px);
+}

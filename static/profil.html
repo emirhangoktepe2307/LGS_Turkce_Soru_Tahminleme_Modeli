@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profilim - LgsSoruTahmin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="profil.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+    <!-- Header -->
+    <header class="main-header py-3">
+        <div class="container-fluid px-4">
+            <div class="d-flex justify-content-between align-items-center">
+                <!-- Left Side: Logo Area -->
+                <div class="logo-area">
+                    <img src="/img/txlogo.png" alt="Lgs Soru Tahmin Logo" style="height: 90px; object-fit: contain;">
+                </div>
+
+                <!-- Right Side: Auth Area -->
+                <div class="auth-area"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="main-navbar">
+        <div class="container-fluid px-4">
+            <div class="d-flex align-items-center justify-content-center py-2">
+                <a href="/index.html" class="nav-link-custom me-5">Anasayfa</a>
+                <a href="/tasarim.html" class="nav-link-custom me-5">Sana Özel Sorular</a>
+                <a href="/ai.html" class="nav-link-custom me-5">TahminX Ai</a>
+                <a href="/gecmis.html" class="nav-link-custom me-5">Soru Geçmişi</a>
+                <a href="/profil.html" class="nav-link-custom active">Profilim</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <div class="row g-4">
+
+            <!-- Sol Kolon: Kullanıcı Kartı -->
+            <div class="col-lg-4">
+                <div class="card border-0 shadow-sm rounded-4 h-100">
+                    <div class="card-body text-center p-5">
+                        <h4 class="fw-bold text-dark mb-1 mt-4" id="userName">Yükleniyor...</h4>
+                        <p class="text-muted mb-4" id="userEmail">...</p>
+
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary-soft fw-semibold py-2">Profili Düzenle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sağ Kolon: İstatistikler -->
+            <div class="col-lg-8">
+                <!-- Üst İstatistik Kartları -->
+                <div class="row g-3 mb-4">
+                    <div class="col-md-6 col-sm-6">
+                        <div
+                            class="stat-card p-4 rounded-4 bg-white shadow-sm border-0 h-100 position-relative overflow-hidden">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <p class="text-secondary fw-semibold mb-1 fs-7 text-uppercase ls-1">TOPLAM TAHMİN
+                                    </p>
+                                    <h2 class="fw-bold text-dark mb-0 display-6" id="toplamTahmin">0</h2>
+                                </div>
+                                <div class="icon-shape bg-primary bg-opacity-10 text-primary rounded-3 p-3">
+                                    <i class="bi bi-lightning-charge-fill fs-4">⚡</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="stat-card p-4 rounded-4 bg-white shadow-sm border-0 h-100">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <p class="text-secondary fw-semibold mb-1 fs-7 text-uppercase ls-1">FAVORİ KONU</p>
+                                    <h2 class="fw-bold text-dark mb-0 h3" id="favoriKonu">-</h2>
+                                </div>
+                                <div class="icon-shape bg-success bg-opacity-10 text-success rounded-3 p-3">
+                                    <i class="bi bi-star-fill fs-4">⭐</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="stat-card p-4 rounded-4 bg-white shadow-sm border-0 h-100">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <p class="text-secondary fw-semibold mb-1 fs-7 text-uppercase ls-1">SON AKTİVİTE</p>
+                                    <h2 class="fw-bold text-dark mb-0 h4" id="sonAktivite">-</h2>
+                                </div>
+                                <div class="icon-shape bg-warning bg-opacity-10 text-warning rounded-3 p-3">
+                                    <i class="bi bi-clock-history fs-4">🕒</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="stat-card p-4 rounded-4 bg-white shadow-sm border-0 h-100">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <p class="text-secondary fw-semibold mb-1 fs-7 text-uppercase ls-1">GÜNLÜK ORTALAMA
+                                    </p>
+                                    <h2 class="fw-bold text-dark mb-0 h3" id="gunlukOrtalama">0</h2>
+                                </div>
+                                <div class="icon-shape bg-info bg-opacity-10 text-info rounded-3 p-3">
+                                    <i class="bi bi-bar-chart-fill fs-4">📊</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grafikler -->
+                <div class="row g-4 mb-4">
+                    <div class="col-lg-6">
+                        <div class="card border-0 shadow-sm rounded-4 h-100">
+                            <div class="card-header bg-transparent border-0 pt-4 px-4 pb-0">
+                                <h5 class="fw-bold text-dark mb-0">Haftalık Aktivite</h5>
+                            </div>
+                            <div class="card-body p-4">
+                                <canvas id="weeklyChart" height="250"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card border-0 shadow-sm rounded-4 h-100">
+                            <div class="card-header bg-transparent border-0 pt-4 px-4 pb-0">
+                                <h5 class="fw-bold text-dark mb-0">Konu Dağılımı</h5>
+                            </div>
+                            <div class="card-body p-4">
+                                <canvas id="contentChart" height="250"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Son Aktiviteler Tablosu -->
+                <div class="card border-0 shadow-sm rounded-4">
+                    <div
+                        class="card-header bg-transparent border-0 pt-4 px-4 pb-2 d-flex justify-content-between align-items-center">
+                        <h5 class="fw-bold text-dark mb-0">Son Tahmin İstekleri</h5>
+                        <button class="btn btn-sm btn-light text-muted">Tümünü Gör</button>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-hover align-middle mb-0">
+                                <thead class="bg-light">
+                                    <tr>
+                                        <th class="ps-4 py-3 text-secondary border-0">Tarih</th>
+                                        <th class="py-3 text-secondary border-0">Konu</th>
+                                        <th class="py-3 text-secondary border-0">Yıl</th>
+                                        <th class="py-3 text-secondary border-0">Tür</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="recentTableBody">
+                                    <tr>
+                                        <td colspan="4" class="text-center py-4 text-muted">Yükleniyor...</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="profil.js?v=2"></script>
+    <script src="auth.js"></script>
+</body>
+
+</html>

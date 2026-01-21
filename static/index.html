@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LgsSoruTahmin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="main-header py-3">
+        <div class="container-fluid px-4">
+            <div class="d-flex justify-content-between align-items-center">
+                <!-- Left Side: Logo Area -->
+                <div class="logo-area">
+                    <img src="/img/txlogo.png" alt="Lgs Soru Tahmin Logo" style="height: 90px; object-fit: contain;">
+                </div>
+
+                <!-- Right Side: Auth Area (Managed by auth.js) -->
+                <div class="auth-area"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="main-navbar">
+        <div class="container-fluid px-4">
+            <div class="d-flex align-items-center justify-content-center py-2">
+                <a href="/index.html" class="nav-link-custom me-5">Anasayfa</a>
+                <a href="/tasarim.html" class="nav-link-custom me-5">Sana Özel Sorular</a>
+                <a href="/ai.html" class="nav-link-custom me-5">TahminX Ai</a>
+                <a href="/gecmis.html" class="nav-link-custom me-5">Soru Geçmişi</a>
+                <a href="/profil.html" class="nav-link-custom">Profilim</a>
+            </div>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Türkçe Anlam Sorularını<br>
+                <span class="gradient-text">Bir Tıkla Üret!</span>
+            </h1>
+
+            <p class="hero-desc">
+                8. sınıf öğrencileri için yapay zekâ ile hazırlanan
+                kişiselleştirilmiş soru sistemi.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="/tasarim.html" class="btn-primary">Hemen Başla</a>
+                <a href="/tasarim.html?auto=true" class="btn-secondary">Ai ile Soru Oluştur</a>
+            </div>
+
+            <div class="hero-features">
+                <div class="feature">⚙️ Akıllı Soru Motoru</div>
+                <div class="feature">🎯 8. Sınıfa Özel</div>
+                <div class="feature">📘 Gerçek Sınav Formatı</div>
+            </div>
+        </div>
+
+        <div class="hero-cards">
+
+            <div class="card-modern card1">
+                <span class="tag">Paragraf • Ana Düşünce</span>
+                <p class="card-question">Bu paragrafın ana düşüncesi nedir?</p>
+            </div>
+
+            <div class="card-modern card2">
+                <span class="tag">Cümlede Anlam • Anlam İlişkisi</span>
+                <p class="card-question">Bu cümlede hangi anlam ilişkisi vardır?</p>
+            </div>
+
+        </div>
+
+
+    </section>
+    <section class="features-section">
+        <div class="features-container">
+
+            <div class="feature-card">
+                <h3 class="feature-title">⚡ Akıllı Soru Motoru</h3>
+                <p class="feature-desc">Seçtiğin konuya göre anında özgün Türkçe anlam soruları üretir.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3 class="feature-title">🎯 8. Sınıfa Özel</h3>
+                <p class="feature-desc">LGS müfredatına tam uyumlu, seviyeye uygun soru tipi oluşturur.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3 class="feature-title">📘 Gerçek Sınav Formatı</h3>
+                <p class="feature-desc">Yeni nesil soru tarzlarına göre tasarlanmış modern içerikler.</p>
+            </div>
+
+        </div>
+    </section>
+    <section class="steps-section">
+        <h2 class="steps-title">Nasıl Çalışır?</h2>
+
+        <div class="steps-container">
+
+            <div class="step-box">
+                <div class="step-number">1</div>
+                <h3 class="step-title">Konu Seç</h3>
+                <p class="step-desc">Cümlede Anlam veya Paragrafta Anlam alt konularından birini seç.</p>
+            </div>
+
+            <div class="step-box">
+                <div class="step-number">2</div>
+                <h3 class="step-title">Soru Oluştur</h3>
+                <p class="step-desc">Yapay zekâ anında seçtiğin konuya özel soru üretir.</p>
+            </div>
+
+            <div class="step-box">
+                <div class="step-number">3</div>
+                <h3 class="step-title">Çöz & Geliş</h3>
+                <p class="step-desc">Soruları çöz, yanlışlarını gör, öğrendikçe geliş!</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- BURASI: Renkli ikonlu Nasıl Çalışır kartlarının altına gelecek -->
+    <section class="steps-progress">
+        <h2 class="steps-progress-title">
+            Adım Adım Tahmin<span class="title-x">X</span>
+        </h2>
+
+
+        <div class="steps-progress-wrapper">
+            <!-- Arka plandaki renkli şekiller -->
+            <div class="bg-diamond diamond-1"></div>
+            <div class="bg-diamond diamond-2"></div>
+            <div class="bg-diamond diamond-3"></div>
+
+            <!-- Asıl kart -->
+            <div class="steps-progress-card">
+                <div class="stepper">
+
+                    <div class="step active">
+                        <div class="step-circle">
+                            <span class="step-check">✓</span>
+                        </div>
+                        <span class="step-label">Konu Seç</span>
+                    </div>
+
+                    <div class="step active">
+                        <div class="step-circle">
+                            <span class="step-check">2</span>
+                        </div>
+                        <span class="step-label">Soru Oluştur</span>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-circle">
+                            <span class="step-check">3</span>
+                        </div>
+                        <span class="step-label">Çöz</span>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-circle">
+                            <span class="step-check">4</span>
+                        </div>
+                        <span class="step-label">Gelişimini Gör</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="auth.js"></script>
+</body>
+
+</html>
